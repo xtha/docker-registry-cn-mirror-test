@@ -41,7 +41,7 @@ jobs:
       
       - name: get skopeo download url
         id: skopeo
-        run: test -d assets || mkdir assets; gh api repos/lework/skopeo-binary/releases/latest | yq -P '.assets[]|select(.browser_download_url=="*amd64*").browser_download_url' | tee -a assets/skopeo.yaml
+        run: test -d assets || mkdir assets; gh api repos/lework/skopeo-binary/releases/latest | yq -P '.assets[]|select(.browser_download_url=="*amd64*").browser_download_url' | tee > assets/skopeo.yaml
 
       - name: show download url
         run: echo "${{ steps.skopeo.outputs.data }}"
@@ -56,8 +56,8 @@ jobs:
           for repo in $(gh api users/$user/starred | yq -P ".[].full_name")
             do
               test -d assets/$repo || mkdir -pv assets/$repo
-              gh api repos/$repo/releases/latest | yq -P '.assets[].brower_download_url' > assets/$repo.txt
-              gh api repos/$repo/releases/latest | yq -P '.assets[].brower_download_url' | sed -n 's/github.com/hub.fastgit.xyz/' > assets/$repo.fastgit.txt
+              gh api repos/$repo/releases/latest | yq -P '.assets[].browser_download_url' > assets/$repo.txt
+              gh api repos/$repo/releases/latest | yq -P '.assets[].browser_download_url' | sed -n 's/github.com/hub.fastgit.xyz/' > assets/$repo.fastgit.txt
             done
 
       - name: Run read-yaml action
@@ -71,14 +71,15 @@ jobs:
         run: echo "${{ steps.yaml-data.outputs.data }}"
         
       - name: Test registry
-        if: ${{ false }}
         run: |
           image="library/alpine"
+          
+          test -d registry || mkdir -pv registry
 
           for registry in ${{steps.yaml-data.outputs.data }}
           do
              echo ::group::Test $registry/$image
-             skopeo inspect docker://$registry/$image \
+             skopeo inspect docker://$registry/$image > registry/$registry.txt \
                && (echo -e "\033[32m$registry is good\033[0m" \
                   ; echo "::warning file=README.md,line=1,col=0::OK [ $registry ] is good") \
                || (echo -e "\033[31m$registry is outdated\033[0m" \
