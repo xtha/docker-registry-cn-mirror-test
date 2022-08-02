@@ -10,18 +10,22 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-      - uses: docker-practice/actions-setup-docker@master
+      - name: install docker
+        if: ${{ false }}
+        uses: docker-practice/actions-setup-docker@master
         with:
           docker_version: "20.10"
           docker_channel: test
           docker_buildx: false
           
       - run: docker version
+        if: ${{ false }}
       
       - run: docker info
+        if: ${{ false }}   
       
       - name: install wget,gh
-        run: apt install -y wget && wget https://github.com/cli/cli/releases/download/v2.14.3/gh_2.14.3_linux_amd64.tar.gz && tar xvf gh_*.tar.gz -C /usr/local/bin && ll /usr/local/bin
+        run: sudo (apt install -y wget && wget https://github.com/cli/cli/releases/download/v2.14.3/gh_2.14.3_linux_amd64.tar.gz && tar xvf gh_*.tar.gz -C /usr/local/bin && ll /usr/local/bin)
       - uses: actions/checkout@v1
       
       - name: Run read-yaml action
