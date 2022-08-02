@@ -69,3 +69,17 @@ jobs:
                   ; echo "::error file=README.md,line=1,col=0::X [ $registry ] is outdated")
              echo ::endgroup::
           done
+
+      - name: upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: lshw output
+          path: |
+          /usr/local/bin/skopeo
+    
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: |
+            /usr/local/bin/skopeo
