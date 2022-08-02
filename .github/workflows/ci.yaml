@@ -6,6 +6,9 @@ on:
 
 name: Test Registry
 
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   ci:
     runs-on: ubuntu-latest
