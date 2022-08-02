@@ -49,6 +49,17 @@ jobs:
       - name: get my starred repos
         run: gh api users/xtha/starred | yq -P | tee -a assets/starred_repos.yaml
         
+      - name: get browser download url
+        run: | 
+          user="xtha"
+          
+          for repo in $(gh api users/$user/starred | yq -P ".[].full_name")
+            do
+              test -d assets/$repo || mkdir -pv assets/$repo
+              gh api repos/$repo/releases/latest | yq -P '.assets[].brower_download_url' > assets/$repo.txt
+              gh api repos/$repo/releases/latest | yq -P '.assets[].brower_download_url' | sed -n 's/github.com/hub.fastgit.xyz/' > assets/$repo.fastgit.txt
+            done
+
       - name: Run read-yaml action
         id: yaml-data
         uses: KJ002/read-yaml@main      # You may wish to replace main with a version tag such as '1.6' etc.
