@@ -75,7 +75,7 @@ jobs:
         with:
           name: lshw output
           path: |
-          /usr/local/bin/skopeo
+            /usr/local/bin/skopeo
     
       - name: Release
         uses: softprops/action-gh-release@v1
@@ -83,3 +83,7 @@ jobs:
         with:
           files: |
             /usr/local/bin/skopeo
+            
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: upload assets/*.yaml
