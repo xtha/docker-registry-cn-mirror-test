@@ -38,7 +38,7 @@ jobs:
       
       - name: get skopeo download url
         id: skopeo
-        run: mkdir assets; gh api repos/lework/skopeo-binary/releases/latest | yq -P '.assets[]|select(.browser_download_url=="*amd64*").browser_download_url' | tee -a assets/skopeo.yaml
+        run: mkdir assets; gh api repos/lework/skopeo-binary/releases/latest | yq -P '.assets[]|select(.browser_download_url=="*amd64*").browser_download_url' | tee -a skopeo.yaml
 
       - name: show download url
         run: echo "${{ steps.skopeo.outputs.data }}"
@@ -73,7 +73,7 @@ jobs:
       - name: upload artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: lshw output
+          name: skopeo-linux-amd64
           path: |
             /usr/local/bin/skopeo
     
@@ -87,3 +87,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: upload assets/*.yaml
+          
