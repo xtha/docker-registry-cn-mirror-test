@@ -17,30 +17,27 @@ jobs:
           docker_buildx: false
       - run: docker version
       - run: docker info
-      - name: Test
-        run: |
-          registrys="
-          docker.io
-          registry-1.docker.io
-          registry.hub.docker.com
-          mirror.baidubce.com
-          hub-mirror.c.163.com
-          docker.mirrors.ustc.edu.cn
-          mirror.gcr.io
-          $ALIYUN_MIRROR
-          "
-          image="library/nginx:1.21.1-alpine"
+      - uses: actions/checkout@v1
+      - name: Run read-yaml action
+        id: yaml-data
+        uses: KJ002/read-yaml@main      # You may wish to replace main with a version tag such as '1.6' etc.
+        with:
+          file: './registries.yml'          # File to read from
+          key-path: '["runs", "using"]' # Access the runs key then the using key and retuns the value.
 
-          for registry in $registrys
+      - name: Display read-yaml output
+        run: echo "${{ steps.yaml-data.outputs.data }}"
+      - name: Test registry
+        run: |
+          image="library/alpine"
+
+          for registry in ${{steps.yaml-data.outputs.data }}
           do
              echo ::group::Test $registry/$image
-             docker pull $registry/$image \
+             skopeo inspect docker://$registry/$image \
                && (echo -e "\033[32m$registry is good\033[0m" \
                   ; echo "::warning file=README.md,line=1,col=0::OK [ $registry ] is good") \
                || (echo -e "\033[31m$registry is outdated\033[0m" \
                   ; echo "::error file=README.md,line=1,col=0::X [ $registry ] is outdated")
-             docker rmi $registry/$image || true
              echo ::endgroup::
           done
-        env:
-          ALIYUN_MIRROR: ${{secrets.ALIYUN_MIRROR}}
