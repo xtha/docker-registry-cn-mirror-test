@@ -13,6 +13,9 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout codes
+        uses: actions/checkout@v1
+      
       - name: install docker
         if: ${{ false }}
         uses: docker-practice/actions-setup-docker@master
@@ -42,7 +45,6 @@ jobs:
 
       - name: show download url
         run: echo "${{ steps.skopeo.outputs.data }}"
-      - uses: actions/checkout@v1
       
       - name: Run read-yaml action
         id: yaml-data
