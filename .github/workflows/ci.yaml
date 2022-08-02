@@ -70,7 +70,7 @@ jobs:
 
       - name: yq load yaml data from yaml file
         id: yaml_file
-        run: yq registry.hosts registry.yaml
+        run: yq .registry.hosts registry.yaml
         
       - name: Display read-yaml output
         run: echo "${{ steps.yaml_file.outputs.data }}"
