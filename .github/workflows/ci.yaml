@@ -61,14 +61,19 @@ jobs:
             done
 
       - name: Run read-yaml action
+        if: ${{ false }}
         id: yaml-data
         uses: KJ002/read-yaml@main      # You may wish to replace main with a version tag such as '1.6' etc.
         with:
           file: './registry.yaml'          # File to read from
           key-path: '["registry", "hosts"]' # Access the runs key then the using key and retuns the value.
 
+      - name: yq load yaml data from yaml file
+        id: yaml_file
+        run: yq registry.hosts registry.yaml
+        
       - name: Display read-yaml output
-        run: echo "${{ steps.yaml-data.outputs.data }}"
+        run: echo "${{ steps.yaml_file.outputs.data }}"
         
       - name: Test registry
         run: |
@@ -76,7 +81,7 @@ jobs:
           
           test -d registry || mkdir -pv registry
 
-          for registry in ${{steps.yaml-data.outputs.data }}
+          for registry in ${{steps.yaml_file.outputs.data }}
           do
              echo ::group::Test $registry/$image
              skopeo inspect docker://$registry/$image > registry/$registry.txt \
