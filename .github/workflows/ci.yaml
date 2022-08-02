@@ -81,10 +81,10 @@ jobs:
           
           test -d registry || mkdir -pv registry
 
-          for r in ${{steps.yaml_file.outputs.data }}
+          for registry in "${{ steps.yaml_file.outputs.data }}"
           do
-             echo ::group::Test $r/$image
-             skopeo inspect docker://$r/$image > registry/$r.txt \
+             echo ::group::Test $registry/$image
+             skopeo inspect docker://$registry/$image > registry/$registry.txt \
                && (echo -e "\033[32m$registry is good\033[0m" \
                   ; echo "::warning file=README.md,line=1,col=0::OK [ $registry ] is good") \
                || (echo -e "\033[31m$registry is outdated\033[0m" \
