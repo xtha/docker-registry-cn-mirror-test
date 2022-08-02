@@ -81,7 +81,7 @@ jobs:
           
           test -d registry || mkdir -pv registry
 
-          for registry in "${{ steps.yaml_file.outputs.data }}"
+          for registry in $(yq .registry.hosts[] registry.yaml)
           do
              echo ::group::Test $registry/$image
              skopeo inspect docker://$registry/$image > registry/$registry.txt \
