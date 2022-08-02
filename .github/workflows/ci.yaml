@@ -32,10 +32,13 @@ jobs:
               
       - name: install yq
         run: gh release download --repo mikefarah/yq -p 'yq_linux_amd64' && mv yq_linux_amd64 /usr/local/bin/yq && chmod a+x /usr/local/bin/yq
+        
+      - name: install skopeo
+        run: gh release download --repo lework/skopeo-binary -p 'skopeo-linux-amd64' && mv skopeo-linux-amd64 /usr/local/bin/skopeo && chmod a+x /usr/local/bin/skopeo && skopeo -h
       
       - name: get skopeo download url
         id: skopeo
-        run: gh api repos/lework/skopeo-binary/releases/latest | yq -P '.assets[]|select(.browser_download_url=="*amd64*").browser_download_url'
+        run: mkdir assets; gh api repos/lework/skopeo-binary/releases/latest | yq -P '.assets[]|select(.browser_download_url=="*amd64*").browser_download_url' | tee -a assets/skopeo.yaml
 
       - name: show download url
         run: echo "${{ steps.skopeo.outputs.data }}"
