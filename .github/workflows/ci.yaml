@@ -56,7 +56,7 @@ jobs:
           for repo in $(gh api users/$user/starred | yq -P ".[].full_name")
             do
               test -d assets/$repo || mkdir -pv assets/$repo
-              gh api repos/$repo/releases/latest | yq -P '.assets[].browser_download_url' > assets/$repo.txt
+              gh api repos/$repo/releases/latest | yq -P '.assets[].browser_download_url'
               gh api repos/$repo/releases/latest | yq -P '.assets[].browser_download_url' | sed -n 's/github.com/hub.fastgit.xyz/' > assets/$repo.fastgit.txt
             done
 
@@ -70,21 +70,21 @@ jobs:
 
       - name: yq load yaml data from yaml file
         id: yaml_file
-        run: yq .registry.hosts registry.yaml
+        run: yq .registry.hosts.[] registry.yaml
         
       - name: Display read-yaml output
         run: echo "${{ steps.yaml_file.outputs.data }}"
         
       - name: Test registry
         run: |
-          image="library/alpine"
+          image="library/alpine:latest"
           
           test -d registry || mkdir -pv registry
 
-          for registry in ${{steps.yaml_file.outputs.data }}
+          for r in ${{steps.yaml_file.outputs.data }}
           do
-             echo ::group::Test $registry/$image
-             skopeo inspect docker://$registry/$image > registry/$registry.txt \
+             echo ::group::Test $r/$image
+             skopeo inspect docker://$r/$image > registry/$r.txt \
                && (echo -e "\033[32m$registry is good\033[0m" \
                   ; echo "::warning file=README.md,line=1,col=0::OK [ $registry ] is good") \
                || (echo -e "\033[31m$registry is outdated\033[0m" \
