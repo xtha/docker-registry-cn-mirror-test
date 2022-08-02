@@ -41,7 +41,7 @@ jobs:
       
       - name: get skopeo download url
         id: skopeo
-        run: mkdir assets; gh api repos/lework/skopeo-binary/releases/latest | yq -P '.assets[]|select(.browser_download_url=="*amd64*").browser_download_url' | tee -a assets/skopeo.yaml
+        run: test -d assets || mkdir assets; gh api repos/lework/skopeo-binary/releases/latest | yq -P '.assets[]|select(.browser_download_url=="*amd64*").browser_download_url' | tee -a assets/skopeo.yaml
 
       - name: show download url
         run: echo "${{ steps.skopeo.outputs.data }}"
