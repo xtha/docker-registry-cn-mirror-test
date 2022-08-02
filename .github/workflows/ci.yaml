@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout codes
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
+        
       
       - name: install docker
         if: ${{ false }}
