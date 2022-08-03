@@ -86,11 +86,13 @@ jobs:
         run: |
           image="library/nginx"
           test -d registry || mkdir -pv registry
-
           for registry in $(yq .registry.hosts[] registry.yaml)
           do
              echo ::group::Test $registry/$image
-             time skopeo --insecure-policy inspect docker://$registry/$image > registry/$registry.txt \
+             SKOPEO_CMD="skopeo --insecure-policy inspect docker://$registry/$image"
+             DOCKER_CMD="docker pull $registry/$image"
+          
+             time $DOCKER_CMD \
                && (echo -e "\033[32m$registry is good\033[0m" \
                   ; echo "::warning file=README.md,line=1,col=0::OK [ $registry ] is good") \
                || (echo -e "\033[31m$registry is outdated\033[0m" \
