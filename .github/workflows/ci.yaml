@@ -62,7 +62,7 @@ jobs:
           repos=$(gh api users/$user/starred | yq -P ".[].full_name")
           for repo in $repos
             do
-              test -d assets/$repo || mkdir assets/$repo
+              test -d assets/$repo || mkdir -p assets/$repo
               gh api repos/$repo/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url'
               gh api repos/$repo/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url' | sed -n 's/github.com/hub.fastgit.xyz/' > assets/$repo.fastgit.txt
             done
