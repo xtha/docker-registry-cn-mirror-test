@@ -47,7 +47,7 @@ jobs:
         id: skopeo
         run: |
           img="lework/skopeo-binary"
-          rm assets || mkdir assets
+          rm -rf assets || mkdir assets
           gh api repos/$img/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url' | tee > assets/skopeo.yaml
 
       - name: show download url
