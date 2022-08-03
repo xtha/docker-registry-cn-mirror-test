@@ -36,12 +36,19 @@ jobs:
       - name: install yq
         run: gh release download --repo mikefarah/yq -p 'yq_linux_amd64' && mv yq_linux_amd64 /usr/local/bin/yq && chmod a+x /usr/local/bin/yq
         
-      - name: install skopeo
-        run: gh release download --repo lework/skopeo-binary -p 'skopeo-linux-amd64' && mv skopeo-linux-amd64 /usr/local/bin/skopeo && chmod a+x /usr/local/bin/skopeo && skopeo -h
+      - name: test skopeo
+        run: |
+          gh release download --repo lework/skopeo-binary -p 'skopeo-linux-amd64'
+          mv skopeo-linux-amd64 /usr/local/bin/skopeo
+          chmod a+x /usr/local/bin/skopeo
+          skopeo list-tags docker://hub-mirror.c.163.com/library/nginx | yq -P > registry/nginx.inspect.yaml
       
-      - name: get skopeo download url
+      - name: get browser download url
         id: skopeo
-        run: test -d assets || mkdir assets; gh api repos/lework/skopeo-binary/releases/latest | yq -P '.assets[]|select(.browser_download_url=="*amd64*").browser_download_url' | tee > assets/skopeo.yaml
+        run: |
+          img="lework/skopeo-binary"
+          test -d assets || mkdir assets
+          gh api repos/$img/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url' | tee > assets/skopeo.yaml
 
       - name: show download url
         run: echo "${{ steps.skopeo.outputs.data }}"
@@ -49,15 +56,15 @@ jobs:
       - name: get my starred repos
         run: gh api users/xtha/starred | yq -P | tee -a assets/starred_repos.yaml
         
-      - name: get browser download url
+      - name: get browser download url of my starred repos
         run: | 
           user="xtha"
-          
-          for repo in $(gh api users/$user/starred | yq -P ".[].full_name")
+          repos=$(gh api users/$user/starred | yq -P ".[].full_name")
+          for repo in $repos
             do
-              test -d assets/$repo || mkdir -pv assets/$repo
-              gh api repos/$repo/releases/latest | yq -P '.assets[].browser_download_url'
-              gh api repos/$repo/releases/latest | yq -P '.assets[].browser_download_url' | sed -n 's/github.com/hub.fastgit.xyz/' > assets/$repo.fastgit.txt
+              test -d assets/$repo || mkdir assets/$repo
+              gh api repos/$repo/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url'
+              gh api repos/$repo/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url' | sed -n 's/github.com/hub.fastgit.xyz/' > assets/$repo.fastgit.txt
             done
 
       - name: Run read-yaml action
@@ -77,14 +84,13 @@ jobs:
         
       - name: Test registry
         run: |
-          image="library/alpine:latest"
-          
+          image="library/nginx"
           test -d registry || mkdir -pv registry
 
           for registry in $(yq .registry.hosts[] registry.yaml)
           do
              echo ::group::Test $registry/$image
-             skopeo inspect docker://$registry/$image > registry/$registry.txt \
+             time skopeo --insecure-policy inspect docker://$registry/$image > registry/$registry.txt \
                && (echo -e "\033[32m$registry is good\033[0m" \
                   ; echo "::warning file=README.md,line=1,col=0::OK [ $registry ] is good") \
                || (echo -e "\033[31m$registry is outdated\033[0m" \
