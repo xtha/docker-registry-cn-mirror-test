@@ -51,10 +51,17 @@ jobs:
           gh api repos/$img/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url' | tee > assets/skopeo.yaml
 
       - name: show download url
-        run: echo "${{ steps.skopeo.outputs.data }}"
-      
+        run: echo "${{ steps.skopeo.outputs.stdout }}"
+    
+  
+      - name: test
+        id: test
+        run: |
+          echo "::set-output name=timestamp::$(date)\n"
+          
       - name: get my starred repos
-        run: gh api users/xtha/starred | yq -P | tee -a assets/starred_repos.yaml
+        run: |
+          gh api users/xtha/starred | yq -P | tee -a assets/starred_repos.yaml
         
       - name: get browser download url of my starred repos
         run: | 
@@ -80,7 +87,7 @@ jobs:
         run: yq .registry.hosts.[] registry.yaml
         
       - name: Display read-yaml output
-        run: echo "${{ steps.yaml_file.outputs.data }}"
+        run: echo "${{ steps.yaml_file.outputs.stdout}}, ${{ steps.test.outputs.timestamp }}"
         
       - name: Test registry
         run: |
@@ -89,10 +96,10 @@ jobs:
           for registry in $(yq .registry.hosts[] registry.yaml)
           do
              echo ::group::Test $registry/$image
-             SKOPEO_CMD="skopeo --insecure-policy inspect docker://$registry/$image"
+             SKOPEO_CMD="skopeo inspect docker://$registry/$image"
              DOCKER_CMD="docker pull $registry/$image"
           
-             time $DOCKER_CMD \
+             time $SKOPEO_CMD
                && (echo -e "\033[32m$registry is good\033[0m" \
                   ; echo "::warning file=README.md,line=1,col=0::OK [ $registry ] is good") \
                || (echo -e "\033[31m$registry is outdated\033[0m" \
