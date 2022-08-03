@@ -53,7 +53,6 @@ jobs:
       - name: show download url
         run: echo "${{ steps.skopeo.outputs.stdout }}"
     
-  
       - name: test
         id: test
         run: |
@@ -69,8 +68,9 @@ jobs:
           repos=$(gh api users/$user/starred | yq -P ".[].full_name")
           for repo in $repos
             do
+              echo "$repo"
               test -d assets/$repo || mkdir -p assets/$repo
-              gh api repos/$repo/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url'
+              gh api repos/$repo/releases/latest && gh api repos/$repo/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url'
               gh api repos/$repo/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url' | sed -n 's/github.com/hub.fastgit.xyz/' > assets/$repo.fastgit.txt
             done
 
