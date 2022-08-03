@@ -26,6 +26,12 @@ registry:
   - hub-mirror.c.163.com
   - docker.mirrors.ustc.edu.cn
   - mirror.gcr.io
+  remote:
+  - gcr.io
+  - k8s.gcr.io
+  - quay.io
+  - ghcr.io
+  
 runs:
   using: 'node12'
   main: 'dist/index.js'
