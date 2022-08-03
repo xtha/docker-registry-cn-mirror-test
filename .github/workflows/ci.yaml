@@ -99,7 +99,7 @@ jobs:
              SKOPEO_CMD="skopeo inspect docker://$registry/$image"
              DOCKER_CMD="docker pull $registry/$image"
           
-             time $SKOPEO_CMD
+             time `$SKOPEO_CMD` \
                && (echo -e "\033[32m$registry is good\033[0m" \
                   ; echo "::warning file=README.md,line=1,col=0::OK [ $registry ] is good") \
                || (echo -e "\033[31m$registry is outdated\033[0m" \
@@ -127,4 +127,6 @@ jobs:
         with:
           files: |
             /usr/local/bin/skopeo
+            /usr/local/bin/yq
+            /usr/local/bin/gh
           
