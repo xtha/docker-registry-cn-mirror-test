@@ -47,7 +47,7 @@ jobs:
         id: skopeo
         run: |
           img="lework/skopeo-binary"
-          test -d assets || mkdir assets
+          rm assets || mkdir assets
           gh api repos/$img/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url' | tee > assets/skopeo.yaml
 
       - name: show download url
@@ -60,7 +60,7 @@ jobs:
           
       - name: get my starred repos
         run: |
-          gh api users/xtha/starred | yq -P | tee -a assets/starred_repos.yaml
+          gh api users/xtha/starred | yq -P | tee assets/starred_repos.yaml
         
       - name: get browser download url of my starred repos
         run: | 
@@ -71,7 +71,7 @@ jobs:
               echo "$repo"
               test -d assets/$repo || mkdir -p assets/$repo
               gh api repos/$repo/releases/latest && gh api repos/$repo/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url'
-              gh api repos/$repo/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url' | sed -n 's/github.com/hub.fastgit.xyz/' > assets/$repo.fastgit.txt
+              gh api repos/$repo/releases/latest && gh api repos/$repo/releases/latest | yq -P '.assets[]|select(has("browser_download_url"))|.browser_download_url' | sed -n 's/github.com/hub.fastgit.xyz/' > assets/$repo.fastgit.txt
             done
 
       - name: Run read-yaml action
