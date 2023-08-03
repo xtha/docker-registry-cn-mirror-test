@@ -1,3 +1,353 @@
+- id: 41823708
+  node_id: MDEwOlJlcG9zaXRvcnk0MTgyMzcwOA==
+  name: delete-docker-registry-image
+  full_name: burnettk/delete-docker-registry-image
+  private: false
+  owner:
+    login: burnettk
+    id: 18027
+    node_id: MDQ6VXNlcjE4MDI3
+    avatar_url: https://avatars.githubusercontent.com/u/18027?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/burnettk
+    html_url: https://github.com/burnettk
+    followers_url: https://api.github.com/users/burnettk/followers
+    following_url: https://api.github.com/users/burnettk/following{/other_user}
+    gists_url: https://api.github.com/users/burnettk/gists{/gist_id}
+    starred_url: https://api.github.com/users/burnettk/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/burnettk/subscriptions
+    organizations_url: https://api.github.com/users/burnettk/orgs
+    repos_url: https://api.github.com/users/burnettk/repos
+    events_url: https://api.github.com/users/burnettk/events{/privacy}
+    received_events_url: https://api.github.com/users/burnettk/received_events
+    type: User
+    site_admin: false
+  html_url: https://github.com/burnettk/delete-docker-registry-image
+  description: If you are running a private v2 docker registry, and you are storing your data on disk, running this script from the machine where the data lives will let you fully delete an image or tag
+  fork: false
+  url: https://api.github.com/repos/burnettk/delete-docker-registry-image
+  forks_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/forks
+  keys_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/teams
+  hooks_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/hooks
+  issue_events_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/issues/events{/number}
+  events_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/events
+  assignees_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/assignees{/user}
+  branches_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/branches{/branch}
+  tags_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/tags
+  blobs_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/git/refs{/sha}
+  trees_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/statuses/{sha}
+  languages_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/languages
+  stargazers_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/stargazers
+  contributors_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/contributors
+  subscribers_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/subscribers
+  subscription_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/subscription
+  commits_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/commits{/sha}
+  git_commits_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/git/commits{/sha}
+  comments_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/comments{/number}
+  issue_comment_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/issues/comments{/number}
+  contents_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/contents/{+path}
+  compare_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/merges
+  archive_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/downloads
+  issues_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/issues{/number}
+  pulls_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/pulls{/number}
+  milestones_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/milestones{/number}
+  notifications_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/labels{/name}
+  releases_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/releases{/id}
+  deployments_url: https://api.github.com/repos/burnettk/delete-docker-registry-image/deployments
+  created_at: "2015-09-02T19:39:40Z"
+  updated_at: "2023-08-02T15:01:50Z"
+  pushed_at: "2022-05-09T01:01:45Z"
+  git_url: git://github.com/burnettk/delete-docker-registry-image.git
+  ssh_url: git@github.com:burnettk/delete-docker-registry-image.git
+  clone_url: https://github.com/burnettk/delete-docker-registry-image.git
+  svn_url: https://github.com/burnettk/delete-docker-registry-image
+  homepage: ""
+  size: 59
+  stargazers_count: 707
+  watchers_count: 707
+  language: Python
+  has_issues: true
+  has_projects: true
+  has_downloads: true
+  has_wiki: true
+  has_pages: false
+  has_discussions: false
+  forks_count: 194
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 0
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics: []
+  visibility: public
+  forks: 194
+  open_issues: 0
+  watchers: 707
+  default_branch: main
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
+- id: 126172574
+  node_id: MDEwOlJlcG9zaXRvcnkxMjYxNzI1NzQ=
+  name: z.lua
+  full_name: skywind3000/z.lua
+  private: false
+  owner:
+    login: skywind3000
+    id: 3035071
+    node_id: MDQ6VXNlcjMwMzUwNzE=
+    avatar_url: https://avatars.githubusercontent.com/u/3035071?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/skywind3000
+    html_url: https://github.com/skywind3000
+    followers_url: https://api.github.com/users/skywind3000/followers
+    following_url: https://api.github.com/users/skywind3000/following{/other_user}
+    gists_url: https://api.github.com/users/skywind3000/gists{/gist_id}
+    starred_url: https://api.github.com/users/skywind3000/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/skywind3000/subscriptions
+    organizations_url: https://api.github.com/users/skywind3000/orgs
+    repos_url: https://api.github.com/users/skywind3000/repos
+    events_url: https://api.github.com/users/skywind3000/events{/privacy}
+    received_events_url: https://api.github.com/users/skywind3000/received_events
+    type: User
+    site_admin: false
+  html_url: https://github.com/skywind3000/z.lua
+  description: ':zap: A new cd command that helps you navigate faster by learning your habits.'
+  fork: false
+  url: https://api.github.com/repos/skywind3000/z.lua
+  forks_url: https://api.github.com/repos/skywind3000/z.lua/forks
+  keys_url: https://api.github.com/repos/skywind3000/z.lua/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/skywind3000/z.lua/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/skywind3000/z.lua/teams
+  hooks_url: https://api.github.com/repos/skywind3000/z.lua/hooks
+  issue_events_url: https://api.github.com/repos/skywind3000/z.lua/issues/events{/number}
+  events_url: https://api.github.com/repos/skywind3000/z.lua/events
+  assignees_url: https://api.github.com/repos/skywind3000/z.lua/assignees{/user}
+  branches_url: https://api.github.com/repos/skywind3000/z.lua/branches{/branch}
+  tags_url: https://api.github.com/repos/skywind3000/z.lua/tags
+  blobs_url: https://api.github.com/repos/skywind3000/z.lua/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/skywind3000/z.lua/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/skywind3000/z.lua/git/refs{/sha}
+  trees_url: https://api.github.com/repos/skywind3000/z.lua/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/skywind3000/z.lua/statuses/{sha}
+  languages_url: https://api.github.com/repos/skywind3000/z.lua/languages
+  stargazers_url: https://api.github.com/repos/skywind3000/z.lua/stargazers
+  contributors_url: https://api.github.com/repos/skywind3000/z.lua/contributors
+  subscribers_url: https://api.github.com/repos/skywind3000/z.lua/subscribers
+  subscription_url: https://api.github.com/repos/skywind3000/z.lua/subscription
+  commits_url: https://api.github.com/repos/skywind3000/z.lua/commits{/sha}
+  git_commits_url: https://api.github.com/repos/skywind3000/z.lua/git/commits{/sha}
+  comments_url: https://api.github.com/repos/skywind3000/z.lua/comments{/number}
+  issue_comment_url: https://api.github.com/repos/skywind3000/z.lua/issues/comments{/number}
+  contents_url: https://api.github.com/repos/skywind3000/z.lua/contents/{+path}
+  compare_url: https://api.github.com/repos/skywind3000/z.lua/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/skywind3000/z.lua/merges
+  archive_url: https://api.github.com/repos/skywind3000/z.lua/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/skywind3000/z.lua/downloads
+  issues_url: https://api.github.com/repos/skywind3000/z.lua/issues{/number}
+  pulls_url: https://api.github.com/repos/skywind3000/z.lua/pulls{/number}
+  milestones_url: https://api.github.com/repos/skywind3000/z.lua/milestones{/number}
+  notifications_url: https://api.github.com/repos/skywind3000/z.lua/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/skywind3000/z.lua/labels{/name}
+  releases_url: https://api.github.com/repos/skywind3000/z.lua/releases{/id}
+  deployments_url: https://api.github.com/repos/skywind3000/z.lua/deployments
+  created_at: "2018-03-21T12:04:38Z"
+  updated_at: "2023-08-02T16:31:30Z"
+  pushed_at: "2023-07-13T03:02:56Z"
+  git_url: git://github.com/skywind3000/z.lua.git
+  ssh_url: git@github.com:skywind3000/z.lua.git
+  clone_url: https://github.com/skywind3000/z.lua.git
+  svn_url: https://github.com/skywind3000/z.lua
+  homepage: ""
+  size: 990
+  stargazers_count: 2752
+  watchers_count: 2752
+  language: Lua
+  has_issues: true
+  has_projects: true
+  has_downloads: true
+  has_wiki: true
+  has_pages: false
+  has_discussions: false
+  forks_count: 140
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 53
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics:
+    - autojump
+    - bash
+    - cd
+    - fasd
+    - fish
+    - fishshell
+    - fuzzy
+    - fzf
+    - j
+    - jump
+    - plugin
+    - powershell
+    - shell
+    - z
+    - zsh
+    - zsh-plugin
+  visibility: public
+  forks: 140
+  open_issues: 53
+  watchers: 2752
+  default_branch: master
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
+- id: 106351459
+  node_id: MDEwOlJlcG9zaXRvcnkxMDYzNTE0NTk=
+  name: fortio
+  full_name: fortio/fortio
+  private: false
+  owner:
+    login: fortio
+    id: 32624974
+    node_id: MDEyOk9yZ2FuaXphdGlvbjMyNjI0OTc0
+    avatar_url: https://avatars.githubusercontent.com/u/32624974?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/fortio
+    html_url: https://github.com/fortio
+    followers_url: https://api.github.com/users/fortio/followers
+    following_url: https://api.github.com/users/fortio/following{/other_user}
+    gists_url: https://api.github.com/users/fortio/gists{/gist_id}
+    starred_url: https://api.github.com/users/fortio/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/fortio/subscriptions
+    organizations_url: https://api.github.com/users/fortio/orgs
+    repos_url: https://api.github.com/users/fortio/repos
+    events_url: https://api.github.com/users/fortio/events{/privacy}
+    received_events_url: https://api.github.com/users/fortio/received_events
+    type: Organization
+    site_admin: false
+  html_url: https://github.com/fortio/fortio
+  description: Fortio load testing library, command line tool, advanced echo server and web UI in go (golang). Allows to specify a set query-per-second load and record latency histograms and other useful stats.
+  fork: false
+  url: https://api.github.com/repos/fortio/fortio
+  forks_url: https://api.github.com/repos/fortio/fortio/forks
+  keys_url: https://api.github.com/repos/fortio/fortio/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/fortio/fortio/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/fortio/fortio/teams
+  hooks_url: https://api.github.com/repos/fortio/fortio/hooks
+  issue_events_url: https://api.github.com/repos/fortio/fortio/issues/events{/number}
+  events_url: https://api.github.com/repos/fortio/fortio/events
+  assignees_url: https://api.github.com/repos/fortio/fortio/assignees{/user}
+  branches_url: https://api.github.com/repos/fortio/fortio/branches{/branch}
+  tags_url: https://api.github.com/repos/fortio/fortio/tags
+  blobs_url: https://api.github.com/repos/fortio/fortio/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/fortio/fortio/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/fortio/fortio/git/refs{/sha}
+  trees_url: https://api.github.com/repos/fortio/fortio/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/fortio/fortio/statuses/{sha}
+  languages_url: https://api.github.com/repos/fortio/fortio/languages
+  stargazers_url: https://api.github.com/repos/fortio/fortio/stargazers
+  contributors_url: https://api.github.com/repos/fortio/fortio/contributors
+  subscribers_url: https://api.github.com/repos/fortio/fortio/subscribers
+  subscription_url: https://api.github.com/repos/fortio/fortio/subscription
+  commits_url: https://api.github.com/repos/fortio/fortio/commits{/sha}
+  git_commits_url: https://api.github.com/repos/fortio/fortio/git/commits{/sha}
+  comments_url: https://api.github.com/repos/fortio/fortio/comments{/number}
+  issue_comment_url: https://api.github.com/repos/fortio/fortio/issues/comments{/number}
+  contents_url: https://api.github.com/repos/fortio/fortio/contents/{+path}
+  compare_url: https://api.github.com/repos/fortio/fortio/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/fortio/fortio/merges
+  archive_url: https://api.github.com/repos/fortio/fortio/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/fortio/fortio/downloads
+  issues_url: https://api.github.com/repos/fortio/fortio/issues{/number}
+  pulls_url: https://api.github.com/repos/fortio/fortio/pulls{/number}
+  milestones_url: https://api.github.com/repos/fortio/fortio/milestones{/number}
+  notifications_url: https://api.github.com/repos/fortio/fortio/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/fortio/fortio/labels{/name}
+  releases_url: https://api.github.com/repos/fortio/fortio/releases{/id}
+  deployments_url: https://api.github.com/repos/fortio/fortio/deployments
+  created_at: "2017-10-10T01:01:39Z"
+  updated_at: "2023-08-02T08:58:25Z"
+  pushed_at: "2023-08-02T13:53:26Z"
+  git_url: git://github.com/fortio/fortio.git
+  ssh_url: git@github.com:fortio/fortio.git
+  clone_url: https://github.com/fortio/fortio.git
+  svn_url: https://github.com/fortio/fortio
+  homepage: https://fortio.org
+  size: 2740
+  stargazers_count: 2979
+  watchers_count: 2979
+  language: Go
+  has_issues: true
+  has_projects: false
+  has_downloads: true
+  has_wiki: true
+  has_pages: false
+  has_discussions: true
+  forks_count: 230
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 77
+  license:
+    key: apache-2.0
+    name: Apache License 2.0
+    spdx_id: Apache-2.0
+    url: https://api.github.com/licenses/apache-2.0
+    node_id: MDc6TGljZW5zZTI=
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics:
+    - go
+    - golang
+    - golang-application
+    - golang-library
+    - grpc
+    - http
+    - performance
+    - performance-testing
+    - performance-visualization
+    - proxy
+  visibility: public
+  forks: 230
+  open_issues: 77
+  watchers: 2979
+  default_branch: master
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
 - id: 38719026
   node_id: MDEwOlJlcG9zaXRvcnkzODcxOTAyNg==
   name: docker-alpine-glibc
@@ -171,7 +521,7 @@
   releases_url: https://api.github.com/repos/AlDanial/cloc/releases{/id}
   deployments_url: https://api.github.com/repos/AlDanial/cloc/deployments
   created_at: "2015-09-07T03:30:43Z"
-  updated_at: "2023-08-01T16:12:50Z"
+  updated_at: "2023-08-02T19:05:21Z"
   pushed_at: "2023-07-30T04:56:40Z"
   git_url: git://github.com/AlDanial/cloc.git
   ssh_url: git@github.com:AlDanial/cloc.git
@@ -179,8 +529,8 @@
   svn_url: https://github.com/AlDanial/cloc
   homepage: null
   size: 4988
-  stargazers_count: 16491
-  watchers_count: 16491
+  stargazers_count: 16498
+  watchers_count: 16498
   language: Perl
   has_issues: true
   has_projects: true
@@ -192,7 +542,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 24
+  open_issues_count: 25
   license:
     key: gpl-2.0
     name: GNU General Public License v2.0
@@ -208,8 +558,8 @@
     - programming-language
   visibility: public
   forks: 928
-  open_issues: 24
-  watchers: 16491
+  open_issues: 25
+  watchers: 16498
   default_branch: master
   permissions:
     admin: false
@@ -282,16 +632,16 @@
   releases_url: https://api.github.com/repos/astral-sh/ruff/releases{/id}
   deployments_url: https://api.github.com/repos/astral-sh/ruff/deployments
   created_at: "2022-08-09T17:17:44Z"
-  updated_at: "2023-08-01T21:49:03Z"
-  pushed_at: "2023-08-02T00:16:43Z"
+  updated_at: "2023-08-02T23:57:43Z"
+  pushed_at: "2023-08-02T23:44:23Z"
   git_url: git://github.com/astral-sh/ruff.git
   ssh_url: git@github.com:astral-sh/ruff.git
   clone_url: https://github.com/astral-sh/ruff.git
   svn_url: https://github.com/astral-sh/ruff
   homepage: https://beta.ruff.rs
-  size: 26688
-  stargazers_count: 16549
-  watchers_count: 16549
+  size: 27186
+  stargazers_count: 16569
+  watchers_count: 16569
   language: Rust
   has_issues: true
   has_projects: true
@@ -299,11 +649,11 @@
   has_wiki: false
   has_pages: false
   has_discussions: true
-  forks_count: 515
+  forks_count: 518
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 416
+  open_issues_count: 418
   license:
     key: mit
     name: MIT License
@@ -326,9 +676,9 @@
     - style-guide
     - styleguide
   visibility: public
-  forks: 515
-  open_issues: 416
-  watchers: 16549
+  forks: 518
+  open_issues: 418
+  watchers: 16569
   default_branch: main
   permissions:
     admin: false
@@ -510,7 +860,7 @@
   releases_url: https://api.github.com/repos/ConnectAI-E/Dingtalk-OpenAI/releases{/id}
   deployments_url: https://api.github.com/repos/ConnectAI-E/Dingtalk-OpenAI/deployments
   created_at: "2022-12-09T00:15:23Z"
-  updated_at: "2023-08-01T06:00:37Z"
+  updated_at: "2023-08-02T01:11:58Z"
   pushed_at: "2023-07-26T01:49:01Z"
   git_url: git://github.com/ConnectAI-E/Dingtalk-OpenAI.git
   ssh_url: git@github.com:ConnectAI-E/Dingtalk-OpenAI.git
@@ -518,8 +868,8 @@
   svn_url: https://github.com/ConnectAI-E/Dingtalk-OpenAI
   homepage: https://www.connectai-e.com
   size: 524
-  stargazers_count: 1875
-  watchers_count: 1875
+  stargazers_count: 1876
+  watchers_count: 1876
   language: Go
   has_issues: true
   has_projects: false
@@ -554,7 +904,7 @@
   visibility: public
   forks: 364
   open_issues: 20
-  watchers: 1875
+  watchers: 1876
   default_branch: main
   permissions:
     admin: false
@@ -627,16 +977,16 @@
   releases_url: https://api.github.com/repos/files-community/Files/releases{/id}
   deployments_url: https://api.github.com/repos/files-community/Files/deployments
   created_at: "2019-01-04T18:19:14Z"
-  updated_at: "2023-08-01T21:04:52Z"
-  pushed_at: "2023-08-01T21:55:25Z"
+  updated_at: "2023-08-02T23:10:22Z"
+  pushed_at: "2023-08-02T17:11:13Z"
   git_url: git://github.com/files-community/Files.git
   ssh_url: git@github.com:files-community/Files.git
   clone_url: https://github.com/files-community/Files.git
   svn_url: https://github.com/files-community/Files
   homepage: https://files.community
-  size: 183506
-  stargazers_count: 28328
-  watchers_count: 28328
+  size: 183507
+  stargazers_count: 28340
+  watchers_count: 28340
   language: C#
   has_issues: true
   has_projects: true
@@ -644,11 +994,11 @@
   has_wiki: false
   has_pages: false
   has_discussions: false
-  forks_count: 1867
+  forks_count: 1869
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 462
+  open_issues_count: 464
   license:
     key: mit
     name: MIT License
@@ -680,9 +1030,9 @@
     - winui
     - xaml
   visibility: public
-  forks: 1867
-  open_issues: 462
-  watchers: 28328
+  forks: 1869
+  open_issues: 464
+  watchers: 28340
   default_branch: main
   permissions:
     admin: false
@@ -755,16 +1105,16 @@
   releases_url: https://api.github.com/repos/bregman-arie/devops-exercises/releases{/id}
   deployments_url: https://api.github.com/repos/bregman-arie/devops-exercises/deployments
   created_at: "2019-10-03T17:31:21Z"
-  updated_at: "2023-08-02T00:27:24Z"
-  pushed_at: "2023-08-01T21:23:13Z"
+  updated_at: "2023-08-03T00:30:56Z"
+  pushed_at: "2023-08-02T02:22:57Z"
   git_url: git://github.com/bregman-arie/devops-exercises.git
   ssh_url: git@github.com:bregman-arie/devops-exercises.git
   clone_url: https://github.com/bregman-arie/devops-exercises.git
   svn_url: https://github.com/bregman-arie/devops-exercises
   homepage: ""
   size: 4797
-  stargazers_count: 50427
-  watchers_count: 50427
+  stargazers_count: 52287
+  watchers_count: 52287
   language: Python
   has_issues: true
   has_projects: true
@@ -772,11 +1122,11 @@
   has_wiki: true
   has_pages: true
   has_discussions: true
-  forks_count: 11023
+  forks_count: 11232
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 30
+  open_issues_count: 32
   license:
     key: other
     name: Other
@@ -807,9 +1157,9 @@
     - sre
     - terraform
   visibility: public
-  forks: 11023
-  open_issues: 30
-  watchers: 50427
+  forks: 11232
+  open_issues: 32
+  watchers: 52287
   default_branch: master
   permissions:
     admin: false
@@ -1130,7 +1480,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 133
+  open_issues_count: 132
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1143,7 +1493,7 @@
   topics: []
   visibility: public
   forks: 617
-  open_issues: 133
+  open_issues: 132
   watchers: 5447
   default_branch: master
   permissions:
@@ -1217,7 +1567,7 @@
   releases_url: https://api.github.com/repos/devcontainers/spec/releases{/id}
   deployments_url: https://api.github.com/repos/devcontainers/spec/deployments
   created_at: "2022-01-11T19:33:04Z"
-  updated_at: "2023-08-01T14:23:29Z"
+  updated_at: "2023-08-02T09:28:17Z"
   pushed_at: "2023-07-29T17:01:56Z"
   git_url: git://github.com/devcontainers/spec.git
   ssh_url: git@github.com:devcontainers/spec.git
@@ -1225,8 +1575,8 @@
   svn_url: https://github.com/devcontainers/spec
   homepage: https://containers.dev
   size: 401
-  stargazers_count: 1723
-  watchers_count: 1723
+  stargazers_count: 1724
+  watchers_count: 1724
   language: null
   has_issues: true
   has_projects: true
@@ -1254,7 +1604,7 @@
   visibility: public
   forks: 117
   open_issues: 57
-  watchers: 1723
+  watchers: 1724
   default_branch: main
   permissions:
     admin: false
@@ -1437,7 +1787,7 @@
   releases_url: https://api.github.com/repos/alibaba/SREWorks/releases{/id}
   deployments_url: https://api.github.com/repos/alibaba/SREWorks/deployments
   created_at: "2022-03-16T08:08:10Z"
-  updated_at: "2023-08-01T16:24:27Z"
+  updated_at: "2023-08-02T01:55:27Z"
   pushed_at: "2023-07-31T07:40:28Z"
   git_url: git://github.com/alibaba/SREWorks.git
   ssh_url: git@github.com:alibaba/SREWorks.git
@@ -1445,8 +1795,8 @@
   svn_url: https://github.com/alibaba/SREWorks
   homepage: https://sreworks.cn
   size: 237755
-  stargazers_count: 1468
-  watchers_count: 1468
+  stargazers_count: 1467
+  watchers_count: 1467
   language: Java
   has_issues: true
   has_projects: false
@@ -1454,7 +1804,7 @@
   has_wiki: false
   has_pages: false
   has_discussions: true
-  forks_count: 367
+  forks_count: 368
   mirror_url: null
   archived: false
   disabled: false
@@ -1485,9 +1835,9 @@
     - saas
     - sre
   visibility: public
-  forks: 367
+  forks: 368
   open_issues: 34
-  watchers: 1468
+  watchers: 1467
   default_branch: main
   permissions:
     admin: false
@@ -1560,16 +1910,16 @@
   releases_url: https://api.github.com/repos/argoproj/argo-events/releases{/id}
   deployments_url: https://api.github.com/repos/argoproj/argo-events/deployments
   created_at: "2018-05-17T15:06:49Z"
-  updated_at: "2023-08-01T08:22:31Z"
-  pushed_at: "2023-07-29T12:30:30Z"
+  updated_at: "2023-08-02T08:24:18Z"
+  pushed_at: "2023-08-02T15:46:04Z"
   git_url: git://github.com/argoproj/argo-events.git
   ssh_url: git@github.com:argoproj/argo-events.git
   clone_url: https://github.com/argoproj/argo-events.git
   svn_url: https://github.com/argoproj/argo-events
   homepage: https://argoproj.github.io/argo-events/
-  size: 153643
-  stargazers_count: 2033
-  watchers_count: 2033
+  size: 153003
+  stargazers_count: 2034
+  watchers_count: 2034
   language: Go
   has_issues: true
   has_projects: true
@@ -1581,7 +1931,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 115
+  open_issues_count: 110
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1606,8 +1956,8 @@
     - workflows
   visibility: public
   forks: 672
-  open_issues: 115
-  watchers: 2033
+  open_issues: 110
+  watchers: 2034
   default_branch: master
   permissions:
     admin: false
@@ -1681,13 +2031,13 @@
   deployments_url: https://api.github.com/repos/argoproj/argo-ui/deployments
   created_at: "2018-02-07T21:44:34Z"
   updated_at: "2023-07-26T12:19:08Z"
-  pushed_at: "2023-07-29T13:12:44Z"
+  pushed_at: "2023-08-02T16:56:14Z"
   git_url: git://github.com/argoproj/argo-ui.git
   ssh_url: git@github.com:argoproj/argo-ui.git
   clone_url: https://github.com/argoproj/argo-ui.git
   svn_url: https://github.com/argoproj/argo-ui
   homepage: ""
-  size: 7288
+  size: 7280
   stargazers_count: 192
   watchers_count: 192
   language: TypeScript
@@ -1697,7 +2047,7 @@
   has_wiki: false
   has_pages: true
   has_discussions: false
-  forks_count: 143
+  forks_count: 144
   mirror_url: null
   archived: false
   disabled: false
@@ -1713,7 +2063,7 @@
   web_commit_signoff_required: false
   topics: []
   visibility: public
-  forks: 143
+  forks: 144
   open_issues: 8
   watchers: 192
   default_branch: master
@@ -1788,7 +2138,7 @@
   releases_url: https://api.github.com/repos/GoogleContainerTools/distroless/releases{/id}
   deployments_url: https://api.github.com/repos/GoogleContainerTools/distroless/deployments
   created_at: "2017-04-18T22:02:38Z"
-  updated_at: "2023-08-01T20:28:42Z"
+  updated_at: "2023-08-02T22:46:17Z"
   pushed_at: "2023-07-28T23:10:35Z"
   git_url: git://github.com/GoogleContainerTools/distroless.git
   ssh_url: git@github.com:GoogleContainerTools/distroless.git
@@ -1796,8 +2146,8 @@
   svn_url: https://github.com/GoogleContainerTools/distroless
   homepage: ""
   size: 5683
-  stargazers_count: 16035
-  watchers_count: 16035
+  stargazers_count: 16044
+  watchers_count: 16044
   language: Starlark
   has_issues: true
   has_projects: true
@@ -1825,7 +2175,7 @@
   visibility: public
   forks: 945
   open_issues: 74
-  watchers: 16035
+  watchers: 16044
   default_branch: main
   permissions:
     admin: false
@@ -1898,7 +2248,7 @@
   releases_url: https://api.github.com/repos/GoogleContainerTools/jib/releases{/id}
   deployments_url: https://api.github.com/repos/GoogleContainerTools/jib/deployments
   created_at: "2018-01-22T18:30:43Z"
-  updated_at: "2023-08-01T14:26:06Z"
+  updated_at: "2023-08-02T19:03:41Z"
   pushed_at: "2023-08-01T01:22:36Z"
   git_url: git://github.com/GoogleContainerTools/jib.git
   ssh_url: git@github.com:GoogleContainerTools/jib.git
@@ -1906,8 +2256,8 @@
   svn_url: https://github.com/GoogleContainerTools/jib
   homepage: ""
   size: 16246
-  stargazers_count: 12920
-  watchers_count: 12920
+  stargazers_count: 12922
+  watchers_count: 12922
   language: Java
   has_issues: true
   has_projects: true
@@ -1919,7 +2269,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 177
+  open_issues_count: 178
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1944,8 +2294,8 @@
     - oci
   visibility: public
   forks: 1406
-  open_issues: 177
-  watchers: 12920
+  open_issues: 178
+  watchers: 12922
   default_branch: master
   permissions:
     admin: false
@@ -2121,16 +2471,16 @@
   releases_url: https://api.github.com/repos/go-task/task/releases{/id}
   deployments_url: https://api.github.com/repos/go-task/task/deployments
   created_at: "2017-02-27T00:46:04Z"
-  updated_at: "2023-08-01T13:23:32Z"
+  updated_at: "2023-08-03T00:22:11Z"
   pushed_at: "2023-08-02T00:20:05Z"
   git_url: git://github.com/go-task/task.git
   ssh_url: git@github.com:go-task/task.git
   clone_url: https://github.com/go-task/task.git
   svn_url: https://github.com/go-task/task
   homepage: https://taskfile.dev
-  size: 14985
-  stargazers_count: 8213
-  watchers_count: 8213
+  size: 15010
+  stargazers_count: 8221
+  watchers_count: 8221
   language: Go
   has_issues: true
   has_projects: true
@@ -2142,7 +2492,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 204
+  open_issues_count: 206
   license:
     key: mit
     name: MIT License
@@ -2163,8 +2513,8 @@
     - taskfile
   visibility: public
   forks: 477
-  open_issues: 204
-  watchers: 8213
+  open_issues: 206
+  watchers: 8221
   default_branch: main
   permissions:
     admin: false
@@ -2238,13 +2588,13 @@
   deployments_url: https://api.github.com/repos/npawelek/k8s-gitops/deployments
   created_at: "2020-10-04T20:15:44Z"
   updated_at: "2023-07-25T02:00:15Z"
-  pushed_at: "2023-08-01T16:53:13Z"
+  pushed_at: "2023-08-02T21:55:13Z"
   git_url: git://github.com/npawelek/k8s-gitops.git
   ssh_url: git@github.com:npawelek/k8s-gitops.git
   clone_url: https://github.com/npawelek/k8s-gitops.git
   svn_url: https://github.com/npawelek/k8s-gitops
   homepage: ""
-  size: 31606
+  size: 31622
   stargazers_count: 17
   watchers_count: 17
   language: Shell
@@ -2258,7 +2608,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 8
+  open_issues_count: 12
   license:
     key: mit
     name: MIT License
@@ -2277,7 +2627,7 @@
     - selfhosted
   visibility: public
   forks: 0
-  open_issues: 8
+  open_issues: 12
   watchers: 17
   default_branch: master
   permissions:
@@ -2351,28 +2701,28 @@
   releases_url: https://api.github.com/repos/chaitin/safeline/releases{/id}
   deployments_url: https://api.github.com/repos/chaitin/safeline/deployments
   created_at: "2023-04-12T11:30:14Z"
-  updated_at: "2023-08-01T17:00:43Z"
-  pushed_at: "2023-07-27T08:17:18Z"
+  updated_at: "2023-08-02T16:25:02Z"
+  pushed_at: "2023-08-02T07:51:15Z"
   git_url: git://github.com/chaitin/safeline.git
   ssh_url: git@github.com:chaitin/safeline.git
   clone_url: https://github.com/chaitin/safeline.git
   svn_url: https://github.com/chaitin/safeline
   homepage: https://waf-ce.chaitin.cn/
-  size: 24759
-  stargazers_count: 2723
-  watchers_count: 2723
-  language: C++
+  size: 24868
+  stargazers_count: 2735
+  watchers_count: 2735
+  language: TypeScript
   has_issues: true
   has_projects: true
   has_downloads: true
   has_wiki: false
   has_pages: false
   has_discussions: true
-  forks_count: 158
+  forks_count: 159
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 59
+  open_issues_count: 61
   license:
     key: other
     name: Other
@@ -2399,9 +2749,9 @@
     - web-security
     - xss
   visibility: public
-  forks: 158
-  open_issues: 59
-  watchers: 2723
+  forks: 159
+  open_issues: 61
+  watchers: 2735
   default_branch: main
   permissions:
     admin: false
@@ -2582,7 +2932,7 @@
   releases_url: https://api.github.com/repos/prakhar1989/awesome-courses/releases{/id}
   deployments_url: https://api.github.com/repos/prakhar1989/awesome-courses/deployments
   created_at: "2014-11-15T18:36:49Z"
-  updated_at: "2023-08-01T22:56:59Z"
+  updated_at: "2023-08-03T00:31:33Z"
   pushed_at: "2023-05-04T12:49:34Z"
   git_url: git://github.com/prakhar1989/awesome-courses.git
   ssh_url: git@github.com:prakhar1989/awesome-courses.git
@@ -2590,8 +2940,8 @@
   svn_url: https://github.com/prakhar1989/awesome-courses
   homepage: ""
   size: 1401
-  stargazers_count: 48334
-  watchers_count: 48334
+  stargazers_count: 48348
+  watchers_count: 48348
   language: null
   has_issues: true
   has_projects: true
@@ -2599,7 +2949,7 @@
   has_wiki: false
   has_pages: true
   has_discussions: false
-  forks_count: 8022
+  forks_count: 8021
   mirror_url: null
   archived: false
   disabled: false
@@ -2614,9 +2964,9 @@
     - computer-science
     - courses
   visibility: public
-  forks: 8022
+  forks: 8021
   open_issues: 47
-  watchers: 48334
+  watchers: 48348
   default_branch: master
   permissions:
     admin: false
@@ -3068,346 +3418,6 @@
   open_issues: 0
   watchers: 207
   default_branch: main
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 135449032
-  node_id: MDEwOlJlcG9zaXRvcnkxMzU0NDkwMzI=
-  name: nginx-prometheus-exporter
-  full_name: nginxinc/nginx-prometheus-exporter
-  private: false
-  owner:
-    login: nginxinc
-    id: 8629072
-    node_id: MDEyOk9yZ2FuaXphdGlvbjg2MjkwNzI=
-    avatar_url: https://avatars.githubusercontent.com/u/8629072?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/nginxinc
-    html_url: https://github.com/nginxinc
-    followers_url: https://api.github.com/users/nginxinc/followers
-    following_url: https://api.github.com/users/nginxinc/following{/other_user}
-    gists_url: https://api.github.com/users/nginxinc/gists{/gist_id}
-    starred_url: https://api.github.com/users/nginxinc/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/nginxinc/subscriptions
-    organizations_url: https://api.github.com/users/nginxinc/orgs
-    repos_url: https://api.github.com/users/nginxinc/repos
-    events_url: https://api.github.com/users/nginxinc/events{/privacy}
-    received_events_url: https://api.github.com/users/nginxinc/received_events
-    type: Organization
-    site_admin: false
-  html_url: https://github.com/nginxinc/nginx-prometheus-exporter
-  description: NGINX Prometheus Exporter for NGINX and NGINX Plus
-  fork: false
-  url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter
-  forks_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/forks
-  keys_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/teams
-  hooks_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/hooks
-  issue_events_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/issues/events{/number}
-  events_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/events
-  assignees_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/assignees{/user}
-  branches_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/branches{/branch}
-  tags_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/tags
-  blobs_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/git/refs{/sha}
-  trees_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/statuses/{sha}
-  languages_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/languages
-  stargazers_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/stargazers
-  contributors_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/contributors
-  subscribers_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/subscribers
-  subscription_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/subscription
-  commits_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/commits{/sha}
-  git_commits_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/git/commits{/sha}
-  comments_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/comments{/number}
-  issue_comment_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/issues/comments{/number}
-  contents_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/contents/{+path}
-  compare_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/merges
-  archive_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/downloads
-  issues_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/issues{/number}
-  pulls_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/pulls{/number}
-  milestones_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/milestones{/number}
-  notifications_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/labels{/name}
-  releases_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/releases{/id}
-  deployments_url: https://api.github.com/repos/nginxinc/nginx-prometheus-exporter/deployments
-  created_at: "2018-05-30T13:45:19Z"
-  updated_at: "2023-08-01T12:45:52Z"
-  pushed_at: "2023-07-31T21:42:11Z"
-  git_url: git://github.com/nginxinc/nginx-prometheus-exporter.git
-  ssh_url: git@github.com:nginxinc/nginx-prometheus-exporter.git
-  clone_url: https://github.com/nginxinc/nginx-prometheus-exporter.git
-  svn_url: https://github.com/nginxinc/nginx-prometheus-exporter
-  homepage: null
-  size: 4381
-  stargazers_count: 1250
-  watchers_count: 1250
-  language: Go
-  has_issues: true
-  has_projects: true
-  has_downloads: true
-  has_wiki: true
-  has_pages: false
-  has_discussions: true
-  forks_count: 326
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 7
-  license:
-    key: apache-2.0
-    name: Apache License 2.0
-    spdx_id: Apache-2.0
-    url: https://api.github.com/licenses/apache-2.0
-    node_id: MDc6TGljZW5zZTI=
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: true
-  topics:
-    - nginx
-    - prometheus
-    - prometheus-exporter
-  visibility: public
-  forks: 326
-  open_issues: 7
-  watchers: 1250
-  default_branch: main
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 245224093
-  node_id: MDEwOlJlcG9zaXRvcnkyNDUyMjQwOTM=
-  name: jtbl
-  full_name: kellyjonbrazil/jtbl
-  private: false
-  owner:
-    login: kellyjonbrazil
-    id: 24423665
-    node_id: MDQ6VXNlcjI0NDIzNjY1
-    avatar_url: https://avatars.githubusercontent.com/u/24423665?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/kellyjonbrazil
-    html_url: https://github.com/kellyjonbrazil
-    followers_url: https://api.github.com/users/kellyjonbrazil/followers
-    following_url: https://api.github.com/users/kellyjonbrazil/following{/other_user}
-    gists_url: https://api.github.com/users/kellyjonbrazil/gists{/gist_id}
-    starred_url: https://api.github.com/users/kellyjonbrazil/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/kellyjonbrazil/subscriptions
-    organizations_url: https://api.github.com/users/kellyjonbrazil/orgs
-    repos_url: https://api.github.com/users/kellyjonbrazil/repos
-    events_url: https://api.github.com/users/kellyjonbrazil/events{/privacy}
-    received_events_url: https://api.github.com/users/kellyjonbrazil/received_events
-    type: User
-    site_admin: false
-  html_url: https://github.com/kellyjonbrazil/jtbl
-  description: A simple CLI tool to print JSON and JSON Lines data as a table in the terminal
-  fork: false
-  url: https://api.github.com/repos/kellyjonbrazil/jtbl
-  forks_url: https://api.github.com/repos/kellyjonbrazil/jtbl/forks
-  keys_url: https://api.github.com/repos/kellyjonbrazil/jtbl/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/kellyjonbrazil/jtbl/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/kellyjonbrazil/jtbl/teams
-  hooks_url: https://api.github.com/repos/kellyjonbrazil/jtbl/hooks
-  issue_events_url: https://api.github.com/repos/kellyjonbrazil/jtbl/issues/events{/number}
-  events_url: https://api.github.com/repos/kellyjonbrazil/jtbl/events
-  assignees_url: https://api.github.com/repos/kellyjonbrazil/jtbl/assignees{/user}
-  branches_url: https://api.github.com/repos/kellyjonbrazil/jtbl/branches{/branch}
-  tags_url: https://api.github.com/repos/kellyjonbrazil/jtbl/tags
-  blobs_url: https://api.github.com/repos/kellyjonbrazil/jtbl/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/kellyjonbrazil/jtbl/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/kellyjonbrazil/jtbl/git/refs{/sha}
-  trees_url: https://api.github.com/repos/kellyjonbrazil/jtbl/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/kellyjonbrazil/jtbl/statuses/{sha}
-  languages_url: https://api.github.com/repos/kellyjonbrazil/jtbl/languages
-  stargazers_url: https://api.github.com/repos/kellyjonbrazil/jtbl/stargazers
-  contributors_url: https://api.github.com/repos/kellyjonbrazil/jtbl/contributors
-  subscribers_url: https://api.github.com/repos/kellyjonbrazil/jtbl/subscribers
-  subscription_url: https://api.github.com/repos/kellyjonbrazil/jtbl/subscription
-  commits_url: https://api.github.com/repos/kellyjonbrazil/jtbl/commits{/sha}
-  git_commits_url: https://api.github.com/repos/kellyjonbrazil/jtbl/git/commits{/sha}
-  comments_url: https://api.github.com/repos/kellyjonbrazil/jtbl/comments{/number}
-  issue_comment_url: https://api.github.com/repos/kellyjonbrazil/jtbl/issues/comments{/number}
-  contents_url: https://api.github.com/repos/kellyjonbrazil/jtbl/contents/{+path}
-  compare_url: https://api.github.com/repos/kellyjonbrazil/jtbl/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/kellyjonbrazil/jtbl/merges
-  archive_url: https://api.github.com/repos/kellyjonbrazil/jtbl/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/kellyjonbrazil/jtbl/downloads
-  issues_url: https://api.github.com/repos/kellyjonbrazil/jtbl/issues{/number}
-  pulls_url: https://api.github.com/repos/kellyjonbrazil/jtbl/pulls{/number}
-  milestones_url: https://api.github.com/repos/kellyjonbrazil/jtbl/milestones{/number}
-  notifications_url: https://api.github.com/repos/kellyjonbrazil/jtbl/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/kellyjonbrazil/jtbl/labels{/name}
-  releases_url: https://api.github.com/repos/kellyjonbrazil/jtbl/releases{/id}
-  deployments_url: https://api.github.com/repos/kellyjonbrazil/jtbl/deployments
-  created_at: "2020-03-05T17:17:39Z"
-  updated_at: "2023-07-23T18:59:47Z"
-  pushed_at: "2023-05-22T23:48:03Z"
-  git_url: git://github.com/kellyjonbrazil/jtbl.git
-  ssh_url: git@github.com:kellyjonbrazil/jtbl.git
-  clone_url: https://github.com/kellyjonbrazil/jtbl.git
-  svn_url: https://github.com/kellyjonbrazil/jtbl
-  homepage: ""
-  size: 151
-  stargazers_count: 202
-  watchers_count: 202
-  language: Python
-  has_issues: true
-  has_projects: true
-  has_downloads: true
-  has_wiki: true
-  has_pages: true
-  has_discussions: false
-  forks_count: 9
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 0
-  license:
-    key: mit
-    name: MIT License
-    spdx_id: MIT
-    url: https://api.github.com/licenses/mit
-    node_id: MDc6TGljZW5zZTEz
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: false
-  topics:
-    - bash
-    - cli
-    - command-line
-    - command-line-tool
-    - json
-    - json-lines
-    - layout
-    - scripting
-    - shell-scripting
-    - tables
-    - terminal
-  visibility: public
-  forks: 9
-  open_issues: 0
-  watchers: 202
-  default_branch: master
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 82729529
-  node_id: MDEwOlJlcG9zaXRvcnk4MjcyOTUyOQ==
-  name: python-fire
-  full_name: google/python-fire
-  private: false
-  owner:
-    login: google
-    id: 1342004
-    node_id: MDEyOk9yZ2FuaXphdGlvbjEzNDIwMDQ=
-    avatar_url: https://avatars.githubusercontent.com/u/1342004?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/google
-    html_url: https://github.com/google
-    followers_url: https://api.github.com/users/google/followers
-    following_url: https://api.github.com/users/google/following{/other_user}
-    gists_url: https://api.github.com/users/google/gists{/gist_id}
-    starred_url: https://api.github.com/users/google/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/google/subscriptions
-    organizations_url: https://api.github.com/users/google/orgs
-    repos_url: https://api.github.com/users/google/repos
-    events_url: https://api.github.com/users/google/events{/privacy}
-    received_events_url: https://api.github.com/users/google/received_events
-    type: Organization
-    site_admin: false
-  html_url: https://github.com/google/python-fire
-  description: Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
-  fork: false
-  url: https://api.github.com/repos/google/python-fire
-  forks_url: https://api.github.com/repos/google/python-fire/forks
-  keys_url: https://api.github.com/repos/google/python-fire/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/google/python-fire/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/google/python-fire/teams
-  hooks_url: https://api.github.com/repos/google/python-fire/hooks
-  issue_events_url: https://api.github.com/repos/google/python-fire/issues/events{/number}
-  events_url: https://api.github.com/repos/google/python-fire/events
-  assignees_url: https://api.github.com/repos/google/python-fire/assignees{/user}
-  branches_url: https://api.github.com/repos/google/python-fire/branches{/branch}
-  tags_url: https://api.github.com/repos/google/python-fire/tags
-  blobs_url: https://api.github.com/repos/google/python-fire/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/google/python-fire/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/google/python-fire/git/refs{/sha}
-  trees_url: https://api.github.com/repos/google/python-fire/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/google/python-fire/statuses/{sha}
-  languages_url: https://api.github.com/repos/google/python-fire/languages
-  stargazers_url: https://api.github.com/repos/google/python-fire/stargazers
-  contributors_url: https://api.github.com/repos/google/python-fire/contributors
-  subscribers_url: https://api.github.com/repos/google/python-fire/subscribers
-  subscription_url: https://api.github.com/repos/google/python-fire/subscription
-  commits_url: https://api.github.com/repos/google/python-fire/commits{/sha}
-  git_commits_url: https://api.github.com/repos/google/python-fire/git/commits{/sha}
-  comments_url: https://api.github.com/repos/google/python-fire/comments{/number}
-  issue_comment_url: https://api.github.com/repos/google/python-fire/issues/comments{/number}
-  contents_url: https://api.github.com/repos/google/python-fire/contents/{+path}
-  compare_url: https://api.github.com/repos/google/python-fire/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/google/python-fire/merges
-  archive_url: https://api.github.com/repos/google/python-fire/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/google/python-fire/downloads
-  issues_url: https://api.github.com/repos/google/python-fire/issues{/number}
-  pulls_url: https://api.github.com/repos/google/python-fire/pulls{/number}
-  milestones_url: https://api.github.com/repos/google/python-fire/milestones{/number}
-  notifications_url: https://api.github.com/repos/google/python-fire/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/google/python-fire/labels{/name}
-  releases_url: https://api.github.com/repos/google/python-fire/releases{/id}
-  deployments_url: https://api.github.com/repos/google/python-fire/deployments
-  created_at: "2017-02-21T21:35:07Z"
-  updated_at: "2023-08-01T21:24:02Z"
-  pushed_at: "2023-04-07T17:41:10Z"
-  git_url: git://github.com/google/python-fire.git
-  ssh_url: git@github.com:google/python-fire.git
-  clone_url: https://github.com/google/python-fire.git
-  svn_url: https://github.com/google/python-fire
-  homepage: ""
-  size: 6468
-  stargazers_count: 24965
-  watchers_count: 24965
-  language: Python
-  has_issues: true
-  has_projects: true
-  has_downloads: false
-  has_wiki: false
-  has_pages: true
-  has_discussions: false
-  forks_count: 1413
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 144
-  license:
-    key: other
-    name: Other
-    spdx_id: NOASSERTION
-    url: null
-    node_id: MDc6TGljZW5zZTA=
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: false
-  topics:
-    - cli
-    - python
-  visibility: public
-  forks: 1413
-  open_issues: 144
-  watchers: 24965
-  default_branch: master
   permissions:
     admin: false
     maintain: false
