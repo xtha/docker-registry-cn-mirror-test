@@ -1,3 +1,945 @@
+- id: 212889232
+  node_id: MDEwOlJlcG9zaXRvcnkyMTI4ODkyMzI=
+  name: terraform-provider-cloudinit
+  full_name: hashicorp/terraform-provider-cloudinit
+  private: false
+  owner:
+    login: hashicorp
+    id: 761456
+    node_id: MDEyOk9yZ2FuaXphdGlvbjc2MTQ1Ng==
+    avatar_url: https://avatars.githubusercontent.com/u/761456?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/hashicorp
+    html_url: https://github.com/hashicorp
+    followers_url: https://api.github.com/users/hashicorp/followers
+    following_url: https://api.github.com/users/hashicorp/following{/other_user}
+    gists_url: https://api.github.com/users/hashicorp/gists{/gist_id}
+    starred_url: https://api.github.com/users/hashicorp/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/hashicorp/subscriptions
+    organizations_url: https://api.github.com/users/hashicorp/orgs
+    repos_url: https://api.github.com/users/hashicorp/repos
+    events_url: https://api.github.com/users/hashicorp/events{/privacy}
+    received_events_url: https://api.github.com/users/hashicorp/received_events
+    type: Organization
+    site_admin: false
+  html_url: https://github.com/hashicorp/terraform-provider-cloudinit
+  description: Utility provider that exposes the cloudinit_config data source which renders a multipart MIME configuration for use with cloud-init (previously available as the template_cloudinit_config resource in the template provider)
+  fork: false
+  url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit
+  forks_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/forks
+  keys_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/teams
+  hooks_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/hooks
+  issue_events_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/issues/events{/number}
+  events_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/events
+  assignees_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/assignees{/user}
+  branches_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/branches{/branch}
+  tags_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/tags
+  blobs_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/git/refs{/sha}
+  trees_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/statuses/{sha}
+  languages_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/languages
+  stargazers_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/stargazers
+  contributors_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/contributors
+  subscribers_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/subscribers
+  subscription_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/subscription
+  commits_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/commits{/sha}
+  git_commits_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/git/commits{/sha}
+  comments_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/comments{/number}
+  issue_comment_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/issues/comments{/number}
+  contents_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/contents/{+path}
+  compare_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/merges
+  archive_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/downloads
+  issues_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/issues{/number}
+  pulls_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/pulls{/number}
+  milestones_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/milestones{/number}
+  notifications_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/labels{/name}
+  releases_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/releases{/id}
+  deployments_url: https://api.github.com/repos/hashicorp/terraform-provider-cloudinit/deployments
+  created_at: "2019-10-04T19:34:11Z"
+  updated_at: "2023-12-25T14:40:40Z"
+  pushed_at: "2023-12-25T00:10:45Z"
+  git_url: git://github.com/hashicorp/terraform-provider-cloudinit.git
+  ssh_url: git@github.com:hashicorp/terraform-provider-cloudinit.git
+  clone_url: https://github.com/hashicorp/terraform-provider-cloudinit.git
+  svn_url: https://github.com/hashicorp/terraform-provider-cloudinit
+  homepage: https://registry.terraform.io/providers/hashicorp/cloudinit/latest
+  size: 7175
+  stargazers_count: 86
+  watchers_count: 86
+  language: Go
+  has_issues: true
+  has_projects: false
+  has_downloads: true
+  has_wiki: false
+  has_pages: false
+  has_discussions: false
+  forks_count: 17
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 4
+  license:
+    key: mpl-2.0
+    name: Mozilla Public License 2.0
+    spdx_id: MPL-2.0
+    url: https://api.github.com/licenses/mpl-2.0
+    node_id: MDc6TGljZW5zZTE0
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics:
+    - cloud-init
+    - terraform
+    - terraform-provider
+  visibility: public
+  forks: 17
+  open_issues: 4
+  watchers: 86
+  default_branch: main
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
+- id: 470487478
+  node_id: R_kgDOHAsRtg
+  name: SREWorks
+  full_name: alibaba/SREWorks
+  private: false
+  owner:
+    login: alibaba
+    id: 1961952
+    node_id: MDEyOk9yZ2FuaXphdGlvbjE5NjE5NTI=
+    avatar_url: https://avatars.githubusercontent.com/u/1961952?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/alibaba
+    html_url: https://github.com/alibaba
+    followers_url: https://api.github.com/users/alibaba/followers
+    following_url: https://api.github.com/users/alibaba/following{/other_user}
+    gists_url: https://api.github.com/users/alibaba/gists{/gist_id}
+    starred_url: https://api.github.com/users/alibaba/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/alibaba/subscriptions
+    organizations_url: https://api.github.com/users/alibaba/orgs
+    repos_url: https://api.github.com/users/alibaba/repos
+    events_url: https://api.github.com/users/alibaba/events{/privacy}
+    received_events_url: https://api.github.com/users/alibaba/received_events
+    type: Organization
+    site_admin: false
+  html_url: https://github.com/alibaba/SREWorks
+  description: 'Cloud Native DataOps & AIOps Platform | 云原生数智运维平台 '
+  fork: false
+  url: https://api.github.com/repos/alibaba/SREWorks
+  forks_url: https://api.github.com/repos/alibaba/SREWorks/forks
+  keys_url: https://api.github.com/repos/alibaba/SREWorks/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/alibaba/SREWorks/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/alibaba/SREWorks/teams
+  hooks_url: https://api.github.com/repos/alibaba/SREWorks/hooks
+  issue_events_url: https://api.github.com/repos/alibaba/SREWorks/issues/events{/number}
+  events_url: https://api.github.com/repos/alibaba/SREWorks/events
+  assignees_url: https://api.github.com/repos/alibaba/SREWorks/assignees{/user}
+  branches_url: https://api.github.com/repos/alibaba/SREWorks/branches{/branch}
+  tags_url: https://api.github.com/repos/alibaba/SREWorks/tags
+  blobs_url: https://api.github.com/repos/alibaba/SREWorks/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/alibaba/SREWorks/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/alibaba/SREWorks/git/refs{/sha}
+  trees_url: https://api.github.com/repos/alibaba/SREWorks/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/alibaba/SREWorks/statuses/{sha}
+  languages_url: https://api.github.com/repos/alibaba/SREWorks/languages
+  stargazers_url: https://api.github.com/repos/alibaba/SREWorks/stargazers
+  contributors_url: https://api.github.com/repos/alibaba/SREWorks/contributors
+  subscribers_url: https://api.github.com/repos/alibaba/SREWorks/subscribers
+  subscription_url: https://api.github.com/repos/alibaba/SREWorks/subscription
+  commits_url: https://api.github.com/repos/alibaba/SREWorks/commits{/sha}
+  git_commits_url: https://api.github.com/repos/alibaba/SREWorks/git/commits{/sha}
+  comments_url: https://api.github.com/repos/alibaba/SREWorks/comments{/number}
+  issue_comment_url: https://api.github.com/repos/alibaba/SREWorks/issues/comments{/number}
+  contents_url: https://api.github.com/repos/alibaba/SREWorks/contents/{+path}
+  compare_url: https://api.github.com/repos/alibaba/SREWorks/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/alibaba/SREWorks/merges
+  archive_url: https://api.github.com/repos/alibaba/SREWorks/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/alibaba/SREWorks/downloads
+  issues_url: https://api.github.com/repos/alibaba/SREWorks/issues{/number}
+  pulls_url: https://api.github.com/repos/alibaba/SREWorks/pulls{/number}
+  milestones_url: https://api.github.com/repos/alibaba/SREWorks/milestones{/number}
+  notifications_url: https://api.github.com/repos/alibaba/SREWorks/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/alibaba/SREWorks/labels{/name}
+  releases_url: https://api.github.com/repos/alibaba/SREWorks/releases{/id}
+  deployments_url: https://api.github.com/repos/alibaba/SREWorks/deployments
+  created_at: "2022-03-16T08:08:10Z"
+  updated_at: "2023-12-25T11:14:41Z"
+  pushed_at: "2023-10-16T07:09:41Z"
+  git_url: git://github.com/alibaba/SREWorks.git
+  ssh_url: git@github.com:alibaba/SREWorks.git
+  clone_url: https://github.com/alibaba/SREWorks.git
+  svn_url: https://github.com/alibaba/SREWorks
+  homepage: https://sreworks.cn
+  size: 237716
+  stargazers_count: 1624
+  watchers_count: 1624
+  language: Java
+  has_issues: true
+  has_projects: false
+  has_downloads: true
+  has_wiki: false
+  has_pages: false
+  has_discussions: true
+  forks_count: 403
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 38
+  license:
+    key: apache-2.0
+    name: Apache License 2.0
+    spdx_id: Apache-2.0
+    url: https://api.github.com/licenses/apache-2.0
+    node_id: MDc6TGljZW5zZTI=
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics:
+    - aiops
+    - application
+    - cloudnative
+    - dataops
+    - devops
+    - engineering
+    - flink
+    - k8s
+    - kubernetes
+    - maintenance
+    - oam
+    - operation
+    - ops
+    - saas
+    - sre
+  visibility: public
+  forks: 403
+  open_issues: 38
+  watchers: 1624
+  default_branch: main
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
+- id: 247714750
+  node_id: MDEwOlJlcG9zaXRvcnkyNDc3MTQ3NTA=
+  name: zitadel
+  full_name: zitadel/zitadel
+  private: false
+  owner:
+    login: zitadel
+    id: 70011121
+    node_id: MDEyOk9yZ2FuaXphdGlvbjcwMDExMTIx
+    avatar_url: https://avatars.githubusercontent.com/u/70011121?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/zitadel
+    html_url: https://github.com/zitadel
+    followers_url: https://api.github.com/users/zitadel/followers
+    following_url: https://api.github.com/users/zitadel/following{/other_user}
+    gists_url: https://api.github.com/users/zitadel/gists{/gist_id}
+    starred_url: https://api.github.com/users/zitadel/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/zitadel/subscriptions
+    organizations_url: https://api.github.com/users/zitadel/orgs
+    repos_url: https://api.github.com/users/zitadel/repos
+    events_url: https://api.github.com/users/zitadel/events{/privacy}
+    received_events_url: https://api.github.com/users/zitadel/received_events
+    type: Organization
+    site_admin: false
+  html_url: https://github.com/zitadel/zitadel
+  description: ZITADEL - Identity infrastructure, simplified for you.
+  fork: false
+  url: https://api.github.com/repos/zitadel/zitadel
+  forks_url: https://api.github.com/repos/zitadel/zitadel/forks
+  keys_url: https://api.github.com/repos/zitadel/zitadel/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/zitadel/zitadel/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/zitadel/zitadel/teams
+  hooks_url: https://api.github.com/repos/zitadel/zitadel/hooks
+  issue_events_url: https://api.github.com/repos/zitadel/zitadel/issues/events{/number}
+  events_url: https://api.github.com/repos/zitadel/zitadel/events
+  assignees_url: https://api.github.com/repos/zitadel/zitadel/assignees{/user}
+  branches_url: https://api.github.com/repos/zitadel/zitadel/branches{/branch}
+  tags_url: https://api.github.com/repos/zitadel/zitadel/tags
+  blobs_url: https://api.github.com/repos/zitadel/zitadel/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/zitadel/zitadel/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/zitadel/zitadel/git/refs{/sha}
+  trees_url: https://api.github.com/repos/zitadel/zitadel/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/zitadel/zitadel/statuses/{sha}
+  languages_url: https://api.github.com/repos/zitadel/zitadel/languages
+  stargazers_url: https://api.github.com/repos/zitadel/zitadel/stargazers
+  contributors_url: https://api.github.com/repos/zitadel/zitadel/contributors
+  subscribers_url: https://api.github.com/repos/zitadel/zitadel/subscribers
+  subscription_url: https://api.github.com/repos/zitadel/zitadel/subscription
+  commits_url: https://api.github.com/repos/zitadel/zitadel/commits{/sha}
+  git_commits_url: https://api.github.com/repos/zitadel/zitadel/git/commits{/sha}
+  comments_url: https://api.github.com/repos/zitadel/zitadel/comments{/number}
+  issue_comment_url: https://api.github.com/repos/zitadel/zitadel/issues/comments{/number}
+  contents_url: https://api.github.com/repos/zitadel/zitadel/contents/{+path}
+  compare_url: https://api.github.com/repos/zitadel/zitadel/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/zitadel/zitadel/merges
+  archive_url: https://api.github.com/repos/zitadel/zitadel/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/zitadel/zitadel/downloads
+  issues_url: https://api.github.com/repos/zitadel/zitadel/issues{/number}
+  pulls_url: https://api.github.com/repos/zitadel/zitadel/pulls{/number}
+  milestones_url: https://api.github.com/repos/zitadel/zitadel/milestones{/number}
+  notifications_url: https://api.github.com/repos/zitadel/zitadel/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/zitadel/zitadel/labels{/name}
+  releases_url: https://api.github.com/repos/zitadel/zitadel/releases{/id}
+  deployments_url: https://api.github.com/repos/zitadel/zitadel/deployments
+  created_at: "2020-03-16T13:51:31Z"
+  updated_at: "2023-12-26T00:15:59Z"
+  pushed_at: "2023-12-22T17:26:11Z"
+  git_url: git://github.com/zitadel/zitadel.git
+  ssh_url: git@github.com:zitadel/zitadel.git
+  clone_url: https://github.com/zitadel/zitadel.git
+  svn_url: https://github.com/zitadel/zitadel
+  homepage: https://zitadel.com
+  size: 427775
+  stargazers_count: 5735
+  watchers_count: 5735
+  language: Go
+  has_issues: true
+  has_projects: true
+  has_downloads: true
+  has_wiki: false
+  has_pages: false
+  has_discussions: true
+  forks_count: 336
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 501
+  license:
+    key: apache-2.0
+    name: Apache License 2.0
+    spdx_id: Apache-2.0
+    url: https://api.github.com/licenses/apache-2.0
+    node_id: MDc6TGljZW5zZTI=
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics:
+    - 2fa
+    - authentication
+    - authorization
+    - fido2
+    - identity
+    - login
+    - mfa
+    - oauth2
+    - oidc
+    - openid-connect
+    - passkeys
+    - saml
+    - sso
+    - user
+  visibility: public
+  forks: 336
+  open_issues: 501
+  watchers: 5735
+  default_branch: main
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
+- id: 554110348
+  node_id: R_kgDOIQcNjA
+  name: defguard
+  full_name: DefGuard/defguard
+  private: false
+  owner:
+    login: DefGuard
+    id: 105793343
+    node_id: O_kgDOBk5HPw
+    avatar_url: https://avatars.githubusercontent.com/u/105793343?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/DefGuard
+    html_url: https://github.com/DefGuard
+    followers_url: https://api.github.com/users/DefGuard/followers
+    following_url: https://api.github.com/users/DefGuard/following{/other_user}
+    gists_url: https://api.github.com/users/DefGuard/gists{/gist_id}
+    starred_url: https://api.github.com/users/DefGuard/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/DefGuard/subscriptions
+    organizations_url: https://api.github.com/users/DefGuard/orgs
+    repos_url: https://api.github.com/users/DefGuard/repos
+    events_url: https://api.github.com/users/DefGuard/events{/privacy}
+    received_events_url: https://api.github.com/users/DefGuard/received_events
+    type: Organization
+    site_admin: false
+  html_url: https://github.com/DefGuard/defguard
+  description: Enterprise private, secure VPN & SSO platform with hardware keys, 2FA/MFA
+  fork: false
+  url: https://api.github.com/repos/DefGuard/defguard
+  forks_url: https://api.github.com/repos/DefGuard/defguard/forks
+  keys_url: https://api.github.com/repos/DefGuard/defguard/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/DefGuard/defguard/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/DefGuard/defguard/teams
+  hooks_url: https://api.github.com/repos/DefGuard/defguard/hooks
+  issue_events_url: https://api.github.com/repos/DefGuard/defguard/issues/events{/number}
+  events_url: https://api.github.com/repos/DefGuard/defguard/events
+  assignees_url: https://api.github.com/repos/DefGuard/defguard/assignees{/user}
+  branches_url: https://api.github.com/repos/DefGuard/defguard/branches{/branch}
+  tags_url: https://api.github.com/repos/DefGuard/defguard/tags
+  blobs_url: https://api.github.com/repos/DefGuard/defguard/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/DefGuard/defguard/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/DefGuard/defguard/git/refs{/sha}
+  trees_url: https://api.github.com/repos/DefGuard/defguard/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/DefGuard/defguard/statuses/{sha}
+  languages_url: https://api.github.com/repos/DefGuard/defguard/languages
+  stargazers_url: https://api.github.com/repos/DefGuard/defguard/stargazers
+  contributors_url: https://api.github.com/repos/DefGuard/defguard/contributors
+  subscribers_url: https://api.github.com/repos/DefGuard/defguard/subscribers
+  subscription_url: https://api.github.com/repos/DefGuard/defguard/subscription
+  commits_url: https://api.github.com/repos/DefGuard/defguard/commits{/sha}
+  git_commits_url: https://api.github.com/repos/DefGuard/defguard/git/commits{/sha}
+  comments_url: https://api.github.com/repos/DefGuard/defguard/comments{/number}
+  issue_comment_url: https://api.github.com/repos/DefGuard/defguard/issues/comments{/number}
+  contents_url: https://api.github.com/repos/DefGuard/defguard/contents/{+path}
+  compare_url: https://api.github.com/repos/DefGuard/defguard/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/DefGuard/defguard/merges
+  archive_url: https://api.github.com/repos/DefGuard/defguard/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/DefGuard/defguard/downloads
+  issues_url: https://api.github.com/repos/DefGuard/defguard/issues{/number}
+  pulls_url: https://api.github.com/repos/DefGuard/defguard/pulls{/number}
+  milestones_url: https://api.github.com/repos/DefGuard/defguard/milestones{/number}
+  notifications_url: https://api.github.com/repos/DefGuard/defguard/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/DefGuard/defguard/labels{/name}
+  releases_url: https://api.github.com/repos/DefGuard/defguard/releases{/id}
+  deployments_url: https://api.github.com/repos/DefGuard/defguard/deployments
+  created_at: "2022-10-19T09:09:46Z"
+  updated_at: "2023-12-25T14:38:27Z"
+  pushed_at: "2023-12-24T10:59:15Z"
+  git_url: git://github.com/DefGuard/defguard.git
+  ssh_url: git@github.com:DefGuard/defguard.git
+  clone_url: https://github.com/DefGuard/defguard.git
+  svn_url: https://github.com/DefGuard/defguard
+  homepage: https://defguard.net
+  size: 10614
+  stargazers_count: 310
+  watchers_count: 310
+  language: TypeScript
+  has_issues: true
+  has_projects: true
+  has_downloads: true
+  has_wiki: true
+  has_pages: false
+  has_discussions: true
+  forks_count: 2
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 67
+  license:
+    key: other
+    name: Other
+    spdx_id: NOASSERTION
+    url: null
+    node_id: MDc6TGljZW5zZTA=
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics:
+    - authentication
+    - forwardauth
+    - keycloak
+    - multifactor-authentication
+    - oauth
+    - oauth-provider
+    - oauth2-server
+    - oidc
+    - oidc-provider
+    - openid
+    - openid-connect
+    - openid-connect-provider
+    - openvpn
+    - pritunl
+    - security
+    - vpn
+    - vpn-server
+    - wireguard
+    - yubico
+    - yubikey
+  visibility: public
+  forks: 2
+  open_issues: 67
+  watchers: 310
+  default_branch: main
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
+- id: 306366900
+  node_id: MDEwOlJlcG9zaXRvcnkzMDYzNjY5MDA=
+  name: casdoor
+  full_name: casbin/casdoor
+  private: false
+  owner:
+    login: casbin
+    id: 27810343
+    node_id: MDEyOk9yZ2FuaXphdGlvbjI3ODEwMzQz
+    avatar_url: https://avatars.githubusercontent.com/u/27810343?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/casbin
+    html_url: https://github.com/casbin
+    followers_url: https://api.github.com/users/casbin/followers
+    following_url: https://api.github.com/users/casbin/following{/other_user}
+    gists_url: https://api.github.com/users/casbin/gists{/gist_id}
+    starred_url: https://api.github.com/users/casbin/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/casbin/subscriptions
+    organizations_url: https://api.github.com/users/casbin/orgs
+    repos_url: https://api.github.com/users/casbin/repos
+    events_url: https://api.github.com/users/casbin/events{/privacy}
+    received_events_url: https://api.github.com/users/casbin/received_events
+    type: Organization
+    site_admin: false
+  html_url: https://github.com/casbin/casdoor
+  description: An open-source UI-first Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA and RADIUS
+  fork: false
+  url: https://api.github.com/repos/casbin/casdoor
+  forks_url: https://api.github.com/repos/casbin/casdoor/forks
+  keys_url: https://api.github.com/repos/casbin/casdoor/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/casbin/casdoor/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/casbin/casdoor/teams
+  hooks_url: https://api.github.com/repos/casbin/casdoor/hooks
+  issue_events_url: https://api.github.com/repos/casbin/casdoor/issues/events{/number}
+  events_url: https://api.github.com/repos/casbin/casdoor/events
+  assignees_url: https://api.github.com/repos/casbin/casdoor/assignees{/user}
+  branches_url: https://api.github.com/repos/casbin/casdoor/branches{/branch}
+  tags_url: https://api.github.com/repos/casbin/casdoor/tags
+  blobs_url: https://api.github.com/repos/casbin/casdoor/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/casbin/casdoor/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/casbin/casdoor/git/refs{/sha}
+  trees_url: https://api.github.com/repos/casbin/casdoor/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/casbin/casdoor/statuses/{sha}
+  languages_url: https://api.github.com/repos/casbin/casdoor/languages
+  stargazers_url: https://api.github.com/repos/casbin/casdoor/stargazers
+  contributors_url: https://api.github.com/repos/casbin/casdoor/contributors
+  subscribers_url: https://api.github.com/repos/casbin/casdoor/subscribers
+  subscription_url: https://api.github.com/repos/casbin/casdoor/subscription
+  commits_url: https://api.github.com/repos/casbin/casdoor/commits{/sha}
+  git_commits_url: https://api.github.com/repos/casbin/casdoor/git/commits{/sha}
+  comments_url: https://api.github.com/repos/casbin/casdoor/comments{/number}
+  issue_comment_url: https://api.github.com/repos/casbin/casdoor/issues/comments{/number}
+  contents_url: https://api.github.com/repos/casbin/casdoor/contents/{+path}
+  compare_url: https://api.github.com/repos/casbin/casdoor/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/casbin/casdoor/merges
+  archive_url: https://api.github.com/repos/casbin/casdoor/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/casbin/casdoor/downloads
+  issues_url: https://api.github.com/repos/casbin/casdoor/issues{/number}
+  pulls_url: https://api.github.com/repos/casbin/casdoor/pulls{/number}
+  milestones_url: https://api.github.com/repos/casbin/casdoor/milestones{/number}
+  notifications_url: https://api.github.com/repos/casbin/casdoor/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/casbin/casdoor/labels{/name}
+  releases_url: https://api.github.com/repos/casbin/casdoor/releases{/id}
+  deployments_url: https://api.github.com/repos/casbin/casdoor/deployments
+  created_at: "2020-10-22T14:40:03Z"
+  updated_at: "2023-12-25T16:31:23Z"
+  pushed_at: "2023-12-25T13:26:43Z"
+  git_url: git://github.com/casbin/casdoor.git
+  ssh_url: git@github.com:casbin/casdoor.git
+  clone_url: https://github.com/casbin/casdoor.git
+  svn_url: https://github.com/casbin/casdoor
+  homepage: https://casdoor.org
+  size: 32073
+  stargazers_count: 7626
+  watchers_count: 7626
+  language: Go
+  has_issues: true
+  has_projects: true
+  has_downloads: true
+  has_wiki: true
+  has_pages: false
+  has_discussions: true
+  forks_count: 936
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 104
+  license:
+    key: apache-2.0
+    name: Apache License 2.0
+    spdx_id: Apache-2.0
+    url: https://api.github.com/licenses/apache-2.0
+    node_id: MDc6TGljZW5zZTI=
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics:
+    - 2fa
+    - casbin
+    - casdoor
+    - go
+    - iam
+    - ldap
+    - mfa
+    - oauth
+    - oidc
+    - payment-gateway
+    - radius
+    - rbac
+    - react
+    - saml
+    - scim
+    - single-sign-on
+    - sso
+    - stripe
+    - totp
+    - webauthn
+  visibility: public
+  forks: 936
+  open_issues: 104
+  watchers: 7626
+  default_branch: master
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
+- id: 83594975
+  node_id: MDEwOlJlcG9zaXRvcnk4MzU5NDk3NQ==
+  name: ansible-kafka
+  full_name: sleighzy/ansible-kafka
+  private: false
+  owner:
+    login: sleighzy
+    id: 4580060
+    node_id: MDQ6VXNlcjQ1ODAwNjA=
+    avatar_url: https://avatars.githubusercontent.com/u/4580060?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/sleighzy
+    html_url: https://github.com/sleighzy
+    followers_url: https://api.github.com/users/sleighzy/followers
+    following_url: https://api.github.com/users/sleighzy/following{/other_user}
+    gists_url: https://api.github.com/users/sleighzy/gists{/gist_id}
+    starred_url: https://api.github.com/users/sleighzy/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/sleighzy/subscriptions
+    organizations_url: https://api.github.com/users/sleighzy/orgs
+    repos_url: https://api.github.com/users/sleighzy/repos
+    events_url: https://api.github.com/users/sleighzy/events{/privacy}
+    received_events_url: https://api.github.com/users/sleighzy/received_events
+    type: User
+    site_admin: false
+  html_url: https://github.com/sleighzy/ansible-kafka
+  description: Ansible role for installing and configuring Apache Kafka on RedHat and Debian platforms.
+  fork: false
+  url: https://api.github.com/repos/sleighzy/ansible-kafka
+  forks_url: https://api.github.com/repos/sleighzy/ansible-kafka/forks
+  keys_url: https://api.github.com/repos/sleighzy/ansible-kafka/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/sleighzy/ansible-kafka/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/sleighzy/ansible-kafka/teams
+  hooks_url: https://api.github.com/repos/sleighzy/ansible-kafka/hooks
+  issue_events_url: https://api.github.com/repos/sleighzy/ansible-kafka/issues/events{/number}
+  events_url: https://api.github.com/repos/sleighzy/ansible-kafka/events
+  assignees_url: https://api.github.com/repos/sleighzy/ansible-kafka/assignees{/user}
+  branches_url: https://api.github.com/repos/sleighzy/ansible-kafka/branches{/branch}
+  tags_url: https://api.github.com/repos/sleighzy/ansible-kafka/tags
+  blobs_url: https://api.github.com/repos/sleighzy/ansible-kafka/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/sleighzy/ansible-kafka/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/sleighzy/ansible-kafka/git/refs{/sha}
+  trees_url: https://api.github.com/repos/sleighzy/ansible-kafka/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/sleighzy/ansible-kafka/statuses/{sha}
+  languages_url: https://api.github.com/repos/sleighzy/ansible-kafka/languages
+  stargazers_url: https://api.github.com/repos/sleighzy/ansible-kafka/stargazers
+  contributors_url: https://api.github.com/repos/sleighzy/ansible-kafka/contributors
+  subscribers_url: https://api.github.com/repos/sleighzy/ansible-kafka/subscribers
+  subscription_url: https://api.github.com/repos/sleighzy/ansible-kafka/subscription
+  commits_url: https://api.github.com/repos/sleighzy/ansible-kafka/commits{/sha}
+  git_commits_url: https://api.github.com/repos/sleighzy/ansible-kafka/git/commits{/sha}
+  comments_url: https://api.github.com/repos/sleighzy/ansible-kafka/comments{/number}
+  issue_comment_url: https://api.github.com/repos/sleighzy/ansible-kafka/issues/comments{/number}
+  contents_url: https://api.github.com/repos/sleighzy/ansible-kafka/contents/{+path}
+  compare_url: https://api.github.com/repos/sleighzy/ansible-kafka/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/sleighzy/ansible-kafka/merges
+  archive_url: https://api.github.com/repos/sleighzy/ansible-kafka/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/sleighzy/ansible-kafka/downloads
+  issues_url: https://api.github.com/repos/sleighzy/ansible-kafka/issues{/number}
+  pulls_url: https://api.github.com/repos/sleighzy/ansible-kafka/pulls{/number}
+  milestones_url: https://api.github.com/repos/sleighzy/ansible-kafka/milestones{/number}
+  notifications_url: https://api.github.com/repos/sleighzy/ansible-kafka/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/sleighzy/ansible-kafka/labels{/name}
+  releases_url: https://api.github.com/repos/sleighzy/ansible-kafka/releases{/id}
+  deployments_url: https://api.github.com/repos/sleighzy/ansible-kafka/deployments
+  created_at: "2017-03-01T19:52:53Z"
+  updated_at: "2023-12-25T09:07:46Z"
+  pushed_at: "2023-11-29T21:03:24Z"
+  git_url: git://github.com/sleighzy/ansible-kafka.git
+  ssh_url: git@github.com:sleighzy/ansible-kafka.git
+  clone_url: https://github.com/sleighzy/ansible-kafka.git
+  svn_url: https://github.com/sleighzy/ansible-kafka
+  homepage: ""
+  size: 105
+  stargazers_count: 102
+  watchers_count: 102
+  language: Jinja
+  has_issues: true
+  has_projects: true
+  has_downloads: true
+  has_wiki: false
+  has_pages: false
+  has_discussions: false
+  forks_count: 70
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 0
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics:
+    - ansible
+    - ansible-galaxy
+    - ansible-role
+    - centos
+    - debian
+    - kafka
+    - molecule
+    - redhat
+    - rhel
+  visibility: public
+  forks: 70
+  open_issues: 0
+  watchers: 102
+  default_branch: master
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
+- id: 615152236
+  node_id: R_kgDOJKp6bA
+  name: tf-azure-ansible-inventory
+  full_name: alim10081989/tf-azure-ansible-inventory
+  private: false
+  owner:
+    login: alim10081989
+    id: 5221989
+    node_id: MDQ6VXNlcjUyMjE5ODk=
+    avatar_url: https://avatars.githubusercontent.com/u/5221989?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/alim10081989
+    html_url: https://github.com/alim10081989
+    followers_url: https://api.github.com/users/alim10081989/followers
+    following_url: https://api.github.com/users/alim10081989/following{/other_user}
+    gists_url: https://api.github.com/users/alim10081989/gists{/gist_id}
+    starred_url: https://api.github.com/users/alim10081989/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/alim10081989/subscriptions
+    organizations_url: https://api.github.com/users/alim10081989/orgs
+    repos_url: https://api.github.com/users/alim10081989/repos
+    events_url: https://api.github.com/users/alim10081989/events{/privacy}
+    received_events_url: https://api.github.com/users/alim10081989/received_events
+    type: User
+    site_admin: false
+  html_url: https://github.com/alim10081989/tf-azure-ansible-inventory
+  description: Create ansible inventory from within terrafome code
+  fork: false
+  url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory
+  forks_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/forks
+  keys_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/teams
+  hooks_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/hooks
+  issue_events_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/issues/events{/number}
+  events_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/events
+  assignees_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/assignees{/user}
+  branches_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/branches{/branch}
+  tags_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/tags
+  blobs_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/git/refs{/sha}
+  trees_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/statuses/{sha}
+  languages_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/languages
+  stargazers_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/stargazers
+  contributors_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/contributors
+  subscribers_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/subscribers
+  subscription_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/subscription
+  commits_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/commits{/sha}
+  git_commits_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/git/commits{/sha}
+  comments_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/comments{/number}
+  issue_comment_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/issues/comments{/number}
+  contents_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/contents/{+path}
+  compare_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/merges
+  archive_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/downloads
+  issues_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/issues{/number}
+  pulls_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/pulls{/number}
+  milestones_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/milestones{/number}
+  notifications_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/labels{/name}
+  releases_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/releases{/id}
+  deployments_url: https://api.github.com/repos/alim10081989/tf-azure-ansible-inventory/deployments
+  created_at: "2023-03-17T04:00:59Z"
+  updated_at: "2023-12-25T06:29:05Z"
+  pushed_at: "2023-03-17T04:56:05Z"
+  git_url: git://github.com/alim10081989/tf-azure-ansible-inventory.git
+  ssh_url: git@github.com:alim10081989/tf-azure-ansible-inventory.git
+  clone_url: https://github.com/alim10081989/tf-azure-ansible-inventory.git
+  svn_url: https://github.com/alim10081989/tf-azure-ansible-inventory
+  homepage: null
+  size: 6
+  stargazers_count: 1
+  watchers_count: 1
+  language: HCL
+  has_issues: true
+  has_projects: true
+  has_downloads: true
+  has_wiki: true
+  has_pages: false
+  has_discussions: false
+  forks_count: 0
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 0
+  license: null
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics: []
+  visibility: public
+  forks: 0
+  open_issues: 0
+  watchers: 1
+  default_branch: main
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
+- id: 1062897
+  node_id: MDEwOlJlcG9zaXRvcnkxMDYyODk3
+  name: gitignore
+  full_name: github/gitignore
+  private: false
+  owner:
+    login: github
+    id: 9919
+    node_id: MDEyOk9yZ2FuaXphdGlvbjk5MTk=
+    avatar_url: https://avatars.githubusercontent.com/u/9919?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/github
+    html_url: https://github.com/github
+    followers_url: https://api.github.com/users/github/followers
+    following_url: https://api.github.com/users/github/following{/other_user}
+    gists_url: https://api.github.com/users/github/gists{/gist_id}
+    starred_url: https://api.github.com/users/github/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/github/subscriptions
+    organizations_url: https://api.github.com/users/github/orgs
+    repos_url: https://api.github.com/users/github/repos
+    events_url: https://api.github.com/users/github/events{/privacy}
+    received_events_url: https://api.github.com/users/github/received_events
+    type: Organization
+    site_admin: false
+  html_url: https://github.com/github/gitignore
+  description: A collection of useful .gitignore templates
+  fork: false
+  url: https://api.github.com/repos/github/gitignore
+  forks_url: https://api.github.com/repos/github/gitignore/forks
+  keys_url: https://api.github.com/repos/github/gitignore/keys{/key_id}
+  collaborators_url: https://api.github.com/repos/github/gitignore/collaborators{/collaborator}
+  teams_url: https://api.github.com/repos/github/gitignore/teams
+  hooks_url: https://api.github.com/repos/github/gitignore/hooks
+  issue_events_url: https://api.github.com/repos/github/gitignore/issues/events{/number}
+  events_url: https://api.github.com/repos/github/gitignore/events
+  assignees_url: https://api.github.com/repos/github/gitignore/assignees{/user}
+  branches_url: https://api.github.com/repos/github/gitignore/branches{/branch}
+  tags_url: https://api.github.com/repos/github/gitignore/tags
+  blobs_url: https://api.github.com/repos/github/gitignore/git/blobs{/sha}
+  git_tags_url: https://api.github.com/repos/github/gitignore/git/tags{/sha}
+  git_refs_url: https://api.github.com/repos/github/gitignore/git/refs{/sha}
+  trees_url: https://api.github.com/repos/github/gitignore/git/trees{/sha}
+  statuses_url: https://api.github.com/repos/github/gitignore/statuses/{sha}
+  languages_url: https://api.github.com/repos/github/gitignore/languages
+  stargazers_url: https://api.github.com/repos/github/gitignore/stargazers
+  contributors_url: https://api.github.com/repos/github/gitignore/contributors
+  subscribers_url: https://api.github.com/repos/github/gitignore/subscribers
+  subscription_url: https://api.github.com/repos/github/gitignore/subscription
+  commits_url: https://api.github.com/repos/github/gitignore/commits{/sha}
+  git_commits_url: https://api.github.com/repos/github/gitignore/git/commits{/sha}
+  comments_url: https://api.github.com/repos/github/gitignore/comments{/number}
+  issue_comment_url: https://api.github.com/repos/github/gitignore/issues/comments{/number}
+  contents_url: https://api.github.com/repos/github/gitignore/contents/{+path}
+  compare_url: https://api.github.com/repos/github/gitignore/compare/{base}...{head}
+  merges_url: https://api.github.com/repos/github/gitignore/merges
+  archive_url: https://api.github.com/repos/github/gitignore/{archive_format}{/ref}
+  downloads_url: https://api.github.com/repos/github/gitignore/downloads
+  issues_url: https://api.github.com/repos/github/gitignore/issues{/number}
+  pulls_url: https://api.github.com/repos/github/gitignore/pulls{/number}
+  milestones_url: https://api.github.com/repos/github/gitignore/milestones{/number}
+  notifications_url: https://api.github.com/repos/github/gitignore/notifications{?since,all,participating}
+  labels_url: https://api.github.com/repos/github/gitignore/labels{/name}
+  releases_url: https://api.github.com/repos/github/gitignore/releases{/id}
+  deployments_url: https://api.github.com/repos/github/gitignore/deployments
+  created_at: "2010-11-08T20:17:14Z"
+  updated_at: "2023-12-26T00:12:39Z"
+  pushed_at: "2023-12-21T17:29:22Z"
+  git_url: git://github.com/github/gitignore.git
+  ssh_url: git@github.com:github/gitignore.git
+  clone_url: https://github.com/github/gitignore.git
+  svn_url: https://github.com/github/gitignore
+  homepage: ""
+  size: 2356
+  stargazers_count: 154033
+  watchers_count: 154033
+  language: null
+  has_issues: false
+  has_projects: false
+  has_downloads: true
+  has_wiki: false
+  has_pages: false
+  has_discussions: false
+  forks_count: 83925
+  mirror_url: null
+  archived: false
+  disabled: false
+  open_issues_count: 464
+  license:
+    key: cc0-1.0
+    name: Creative Commons Zero v1.0 Universal
+    spdx_id: CC0-1.0
+    url: https://api.github.com/licenses/cc0-1.0
+    node_id: MDc6TGljZW5zZTY=
+  allow_forking: true
+  is_template: false
+  web_commit_signoff_required: false
+  topics:
+    - git
+    - gitignore
+  visibility: public
+  forks: 83925
+  open_issues: 464
+  watchers: 154033
+  default_branch: main
+  permissions:
+    admin: false
+    maintain: false
+    push: false
+    triage: false
+    pull: false
 - id: 80564356
   node_id: MDEwOlJlcG9zaXRvcnk4MDU2NDM1Ng==
   name: azuredevopslabs
@@ -286,14 +1228,14 @@
   releases_url: https://api.github.com/repos/fullstorydev/grpcui/releases{/id}
   deployments_url: https://api.github.com/repos/fullstorydev/grpcui/deployments
   created_at: "2018-12-03T21:03:58Z"
-  updated_at: "2023-12-23T22:50:04Z"
-  pushed_at: "2023-12-12T17:23:10Z"
+  updated_at: "2023-12-25T09:19:42Z"
+  pushed_at: "2023-12-25T18:54:16Z"
   git_url: git://github.com/fullstorydev/grpcui.git
   ssh_url: git@github.com:fullstorydev/grpcui.git
   clone_url: https://github.com/fullstorydev/grpcui.git
   svn_url: https://github.com/fullstorydev/grpcui
   homepage: null
-  size: 8864
+  size: 8865
   stargazers_count: 4648
   watchers_count: 4648
   language: Go
@@ -307,7 +1249,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 54
+  open_issues_count: 55
   license:
     key: mit
     name: MIT License
@@ -323,7 +1265,7 @@
     - postman
   visibility: public
   forks: 356
-  open_issues: 54
+  open_issues: 55
   watchers: 4648
   default_branch: master
   permissions:
@@ -397,16 +1339,16 @@
   releases_url: https://api.github.com/repos/fullstorydev/grpcurl/releases{/id}
   deployments_url: https://api.github.com/repos/fullstorydev/grpcurl/deployments
   created_at: "2017-11-20T15:53:31Z"
-  updated_at: "2023-12-24T19:06:50Z"
-  pushed_at: "2023-12-17T13:56:53Z"
+  updated_at: "2023-12-25T20:08:10Z"
+  pushed_at: "2023-12-25T11:47:15Z"
   git_url: git://github.com/fullstorydev/grpcurl.git
   ssh_url: git@github.com:fullstorydev/grpcurl.git
   clone_url: https://github.com/fullstorydev/grpcurl.git
   svn_url: https://github.com/fullstorydev/grpcurl
   homepage: null
-  size: 547
-  stargazers_count: 9523
-  watchers_count: 9523
+  size: 554
+  stargazers_count: 9530
+  watchers_count: 9530
   language: Go
   has_issues: true
   has_projects: true
@@ -418,7 +1360,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 93
+  open_issues_count: 94
   license:
     key: mit
     name: MIT License
@@ -434,8 +1376,8 @@
     - protobuf
   visibility: public
   forks: 462
-  open_issues: 93
-  watchers: 9523
+  open_issues: 94
+  watchers: 9530
   default_branch: master
   permissions:
     admin: false
@@ -724,7 +1666,7 @@
   releases_url: https://api.github.com/repos/kubernetes-sigs/kubebuilder/releases{/id}
   deployments_url: https://api.github.com/repos/kubernetes-sigs/kubebuilder/deployments
   created_at: "2018-03-14T21:26:14Z"
-  updated_at: "2023-12-24T10:13:45Z"
+  updated_at: "2023-12-25T20:51:59Z"
   pushed_at: "2023-12-21T17:31:52Z"
   git_url: git://github.com/kubernetes-sigs/kubebuilder.git
   ssh_url: git@github.com:kubernetes-sigs/kubebuilder.git
@@ -732,8 +1674,8 @@
   svn_url: https://github.com/kubernetes-sigs/kubebuilder
   homepage: http://book.kubebuilder.io
   size: 68205
-  stargazers_count: 7083
-  watchers_count: 7083
+  stargazers_count: 7084
+  watchers_count: 7084
   language: Go
   has_issues: true
   has_projects: true
@@ -760,7 +1702,7 @@
   visibility: public
   forks: 1348
   open_issues: 58
-  watchers: 7083
+  watchers: 7084
   default_branch: master
   permissions:
     admin: false
@@ -947,7 +1889,7 @@
   releases_url: https://api.github.com/repos/yannh/kubeconform/releases{/id}
   deployments_url: https://api.github.com/repos/yannh/kubeconform/deployments
   created_at: "2020-05-30T05:28:20Z"
-  updated_at: "2023-12-24T15:30:56Z"
+  updated_at: "2023-12-25T19:56:20Z"
   pushed_at: "2023-12-24T17:06:03Z"
   git_url: git://github.com/yannh/kubeconform.git
   ssh_url: git@github.com:yannh/kubeconform.git
@@ -955,8 +1897,8 @@
   svn_url: https://github.com/yannh/kubeconform
   homepage: ""
   size: 6060
-  stargazers_count: 1595
-  watchers_count: 1595
+  stargazers_count: 1596
+  watchers_count: 1596
   language: Go
   has_issues: true
   has_projects: false
@@ -985,7 +1927,7 @@
   visibility: public
   forks: 99
   open_issues: 40
-  watchers: 1595
+  watchers: 1596
   default_branch: master
   permissions:
     admin: false
@@ -1508,7 +2450,7 @@
   releases_url: https://api.github.com/repos/marp-team/marp-cli/releases{/id}
   deployments_url: https://api.github.com/repos/marp-team/marp-cli/deployments
   created_at: "2018-08-09T09:22:36Z"
-  updated_at: "2023-12-24T06:05:45Z"
+  updated_at: "2023-12-25T05:07:56Z"
   pushed_at: "2023-10-28T14:54:59Z"
   git_url: git://github.com/marp-team/marp-cli.git
   ssh_url: git@github.com:marp-team/marp-cli.git
@@ -1516,8 +2458,8 @@
   svn_url: https://github.com/marp-team/marp-cli
   homepage: ""
   size: 12814
-  stargazers_count: 1631
-  watchers_count: 1631
+  stargazers_count: 1633
+  watchers_count: 1633
   language: TypeScript
   has_issues: true
   has_projects: false
@@ -1550,7 +2492,7 @@
   visibility: public
   forks: 92
   open_issues: 17
-  watchers: 1631
+  watchers: 1633
   default_branch: main
   permissions:
     admin: false
@@ -1624,13 +2566,13 @@
   deployments_url: https://api.github.com/repos/vadimi/grpc-client-cli/deployments
   created_at: "2020-02-06T16:44:25Z"
   updated_at: "2023-12-21T05:43:59Z"
-  pushed_at: "2023-12-12T01:04:00Z"
+  pushed_at: "2023-12-25T21:57:02Z"
   git_url: git://github.com/vadimi/grpc-client-cli.git
   ssh_url: git@github.com:vadimi/grpc-client-cli.git
   clone_url: https://github.com/vadimi/grpc-client-cli.git
   svn_url: https://github.com/vadimi/grpc-client-cli
   homepage: ""
-  size: 382
+  size: 396
   stargazers_count: 205
   watchers_count: 205
   language: Go
@@ -2080,16 +3022,16 @@
   releases_url: https://api.github.com/repos/idoavrah/terraform-tui/releases{/id}
   deployments_url: https://api.github.com/repos/idoavrah/terraform-tui/deployments
   created_at: "2023-07-20T08:23:57Z"
-  updated_at: "2023-12-24T18:31:42Z"
-  pushed_at: "2023-12-21T05:19:33Z"
+  updated_at: "2023-12-25T10:16:19Z"
+  pushed_at: "2023-12-25T13:23:33Z"
   git_url: git://github.com/idoavrah/terraform-tui.git
   ssh_url: git@github.com:idoavrah/terraform-tui.git
   clone_url: https://github.com/idoavrah/terraform-tui.git
   svn_url: https://github.com/idoavrah/terraform-tui
   homepage: https://pypi.org/project/tftui/
-  size: 3358
-  stargazers_count: 750
-  watchers_count: 750
+  size: 4481
+  stargazers_count: 755
+  watchers_count: 755
   language: Python
   has_issues: true
   has_projects: false
@@ -2119,7 +3061,7 @@
   visibility: public
   forks: 24
   open_issues: 3
-  watchers: 750
+  watchers: 755
   default_branch: main
   permissions:
     admin: false
@@ -2416,7 +3358,7 @@
   releases_url: https://api.github.com/repos/camptocamp/terraboard/releases{/id}
   deployments_url: https://api.github.com/repos/camptocamp/terraboard/deployments
   created_at: "2017-07-19T08:31:38Z"
-  updated_at: "2023-12-24T11:22:56Z"
+  updated_at: "2023-12-25T07:16:13Z"
   pushed_at: "2023-12-18T23:47:10Z"
   git_url: git://github.com/camptocamp/terraboard.git
   ssh_url: git@github.com:camptocamp/terraboard.git
@@ -2424,8 +3366,8 @@
   svn_url: https://github.com/camptocamp/terraboard
   homepage: https://terraboard.io
   size: 11001
-  stargazers_count: 1845
-  watchers_count: 1845
+  stargazers_count: 1846
+  watchers_count: 1846
   language: Go
   has_issues: true
   has_projects: true
@@ -2461,905 +3403,8 @@
   visibility: public
   forks: 158
   open_issues: 14
-  watchers: 1845
+  watchers: 1846
   default_branch: master
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 292871179
-  node_id: MDEwOlJlcG9zaXRvcnkyOTI4NzExNzk=
-  name: terramagic
-  full_name: miltlima/terramagic
-  private: false
-  owner:
-    login: miltlima
-    id: 6691321
-    node_id: MDQ6VXNlcjY2OTEzMjE=
-    avatar_url: https://avatars.githubusercontent.com/u/6691321?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/miltlima
-    html_url: https://github.com/miltlima
-    followers_url: https://api.github.com/users/miltlima/followers
-    following_url: https://api.github.com/users/miltlima/following{/other_user}
-    gists_url: https://api.github.com/users/miltlima/gists{/gist_id}
-    starred_url: https://api.github.com/users/miltlima/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/miltlima/subscriptions
-    organizations_url: https://api.github.com/users/miltlima/orgs
-    repos_url: https://api.github.com/users/miltlima/repos
-    events_url: https://api.github.com/users/miltlima/events{/privacy}
-    received_events_url: https://api.github.com/users/miltlima/received_events
-    type: User
-    site_admin: false
-  html_url: https://github.com/miltlima/terramagic
-  description: "\U0001F40D - Wizard tool for create folders and terraform files automated, written in Python ! "
-  fork: false
-  url: https://api.github.com/repos/miltlima/terramagic
-  forks_url: https://api.github.com/repos/miltlima/terramagic/forks
-  keys_url: https://api.github.com/repos/miltlima/terramagic/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/miltlima/terramagic/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/miltlima/terramagic/teams
-  hooks_url: https://api.github.com/repos/miltlima/terramagic/hooks
-  issue_events_url: https://api.github.com/repos/miltlima/terramagic/issues/events{/number}
-  events_url: https://api.github.com/repos/miltlima/terramagic/events
-  assignees_url: https://api.github.com/repos/miltlima/terramagic/assignees{/user}
-  branches_url: https://api.github.com/repos/miltlima/terramagic/branches{/branch}
-  tags_url: https://api.github.com/repos/miltlima/terramagic/tags
-  blobs_url: https://api.github.com/repos/miltlima/terramagic/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/miltlima/terramagic/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/miltlima/terramagic/git/refs{/sha}
-  trees_url: https://api.github.com/repos/miltlima/terramagic/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/miltlima/terramagic/statuses/{sha}
-  languages_url: https://api.github.com/repos/miltlima/terramagic/languages
-  stargazers_url: https://api.github.com/repos/miltlima/terramagic/stargazers
-  contributors_url: https://api.github.com/repos/miltlima/terramagic/contributors
-  subscribers_url: https://api.github.com/repos/miltlima/terramagic/subscribers
-  subscription_url: https://api.github.com/repos/miltlima/terramagic/subscription
-  commits_url: https://api.github.com/repos/miltlima/terramagic/commits{/sha}
-  git_commits_url: https://api.github.com/repos/miltlima/terramagic/git/commits{/sha}
-  comments_url: https://api.github.com/repos/miltlima/terramagic/comments{/number}
-  issue_comment_url: https://api.github.com/repos/miltlima/terramagic/issues/comments{/number}
-  contents_url: https://api.github.com/repos/miltlima/terramagic/contents/{+path}
-  compare_url: https://api.github.com/repos/miltlima/terramagic/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/miltlima/terramagic/merges
-  archive_url: https://api.github.com/repos/miltlima/terramagic/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/miltlima/terramagic/downloads
-  issues_url: https://api.github.com/repos/miltlima/terramagic/issues{/number}
-  pulls_url: https://api.github.com/repos/miltlima/terramagic/pulls{/number}
-  milestones_url: https://api.github.com/repos/miltlima/terramagic/milestones{/number}
-  notifications_url: https://api.github.com/repos/miltlima/terramagic/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/miltlima/terramagic/labels{/name}
-  releases_url: https://api.github.com/repos/miltlima/terramagic/releases{/id}
-  deployments_url: https://api.github.com/repos/miltlima/terramagic/deployments
-  created_at: "2020-09-04T14:39:31Z"
-  updated_at: "2023-12-21T02:46:46Z"
-  pushed_at: "2023-09-06T00:35:58Z"
-  git_url: git://github.com/miltlima/terramagic.git
-  ssh_url: git@github.com:miltlima/terramagic.git
-  clone_url: https://github.com/miltlima/terramagic.git
-  svn_url: https://github.com/miltlima/terramagic
-  homepage: ""
-  size: 104
-  stargazers_count: 43
-  watchers_count: 43
-  language: Python
-  has_issues: true
-  has_projects: true
-  has_downloads: true
-  has_wiki: true
-  has_pages: false
-  has_discussions: true
-  forks_count: 4
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 0
-  license:
-    key: mit
-    name: MIT License
-    spdx_id: MIT
-    url: https://api.github.com/licenses/mit
-    node_id: MDc6TGljZW5zZTEz
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: false
-  topics:
-    - cli
-    - patterns
-    - python
-    - terraform
-  visibility: public
-  forks: 4
-  open_issues: 0
-  watchers: 43
-  default_branch: master
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 292492587
-  node_id: MDEwOlJlcG9zaXRvcnkyOTI0OTI1ODc=
-  name: terraform-operator
-  full_name: GalleyBytes/terraform-operator
-  private: false
-  owner:
-    login: GalleyBytes
-    id: 111165118
-    node_id: O_kgDOBqA-vg
-    avatar_url: https://avatars.githubusercontent.com/u/111165118?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/GalleyBytes
-    html_url: https://github.com/GalleyBytes
-    followers_url: https://api.github.com/users/GalleyBytes/followers
-    following_url: https://api.github.com/users/GalleyBytes/following{/other_user}
-    gists_url: https://api.github.com/users/GalleyBytes/gists{/gist_id}
-    starred_url: https://api.github.com/users/GalleyBytes/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/GalleyBytes/subscriptions
-    organizations_url: https://api.github.com/users/GalleyBytes/orgs
-    repos_url: https://api.github.com/users/GalleyBytes/repos
-    events_url: https://api.github.com/users/GalleyBytes/events{/privacy}
-    received_events_url: https://api.github.com/users/GalleyBytes/received_events
-    type: Organization
-    site_admin: false
-  html_url: https://github.com/GalleyBytes/terraform-operator
-  description: A Kubernetes CRD to handle terraform operations
-  fork: false
-  url: https://api.github.com/repos/GalleyBytes/terraform-operator
-  forks_url: https://api.github.com/repos/GalleyBytes/terraform-operator/forks
-  keys_url: https://api.github.com/repos/GalleyBytes/terraform-operator/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/GalleyBytes/terraform-operator/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/GalleyBytes/terraform-operator/teams
-  hooks_url: https://api.github.com/repos/GalleyBytes/terraform-operator/hooks
-  issue_events_url: https://api.github.com/repos/GalleyBytes/terraform-operator/issues/events{/number}
-  events_url: https://api.github.com/repos/GalleyBytes/terraform-operator/events
-  assignees_url: https://api.github.com/repos/GalleyBytes/terraform-operator/assignees{/user}
-  branches_url: https://api.github.com/repos/GalleyBytes/terraform-operator/branches{/branch}
-  tags_url: https://api.github.com/repos/GalleyBytes/terraform-operator/tags
-  blobs_url: https://api.github.com/repos/GalleyBytes/terraform-operator/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/GalleyBytes/terraform-operator/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/GalleyBytes/terraform-operator/git/refs{/sha}
-  trees_url: https://api.github.com/repos/GalleyBytes/terraform-operator/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/GalleyBytes/terraform-operator/statuses/{sha}
-  languages_url: https://api.github.com/repos/GalleyBytes/terraform-operator/languages
-  stargazers_url: https://api.github.com/repos/GalleyBytes/terraform-operator/stargazers
-  contributors_url: https://api.github.com/repos/GalleyBytes/terraform-operator/contributors
-  subscribers_url: https://api.github.com/repos/GalleyBytes/terraform-operator/subscribers
-  subscription_url: https://api.github.com/repos/GalleyBytes/terraform-operator/subscription
-  commits_url: https://api.github.com/repos/GalleyBytes/terraform-operator/commits{/sha}
-  git_commits_url: https://api.github.com/repos/GalleyBytes/terraform-operator/git/commits{/sha}
-  comments_url: https://api.github.com/repos/GalleyBytes/terraform-operator/comments{/number}
-  issue_comment_url: https://api.github.com/repos/GalleyBytes/terraform-operator/issues/comments{/number}
-  contents_url: https://api.github.com/repos/GalleyBytes/terraform-operator/contents/{+path}
-  compare_url: https://api.github.com/repos/GalleyBytes/terraform-operator/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/GalleyBytes/terraform-operator/merges
-  archive_url: https://api.github.com/repos/GalleyBytes/terraform-operator/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/GalleyBytes/terraform-operator/downloads
-  issues_url: https://api.github.com/repos/GalleyBytes/terraform-operator/issues{/number}
-  pulls_url: https://api.github.com/repos/GalleyBytes/terraform-operator/pulls{/number}
-  milestones_url: https://api.github.com/repos/GalleyBytes/terraform-operator/milestones{/number}
-  notifications_url: https://api.github.com/repos/GalleyBytes/terraform-operator/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/GalleyBytes/terraform-operator/labels{/name}
-  releases_url: https://api.github.com/repos/GalleyBytes/terraform-operator/releases{/id}
-  deployments_url: https://api.github.com/repos/GalleyBytes/terraform-operator/deployments
-  created_at: "2020-09-03T07:01:23Z"
-  updated_at: "2023-12-21T02:44:58Z"
-  pushed_at: "2023-10-28T01:50:30Z"
-  git_url: git://github.com/GalleyBytes/terraform-operator.git
-  ssh_url: git@github.com:GalleyBytes/terraform-operator.git
-  clone_url: https://github.com/GalleyBytes/terraform-operator.git
-  svn_url: https://github.com/GalleyBytes/terraform-operator
-  homepage: http://tf.galleybytes.com
-  size: 7848
-  stargazers_count: 333
-  watchers_count: 333
-  language: Go
-  has_issues: true
-  has_projects: true
-  has_downloads: true
-  has_wiki: false
-  has_pages: false
-  has_discussions: false
-  forks_count: 47
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 20
-  license:
-    key: apache-2.0
-    name: Apache License 2.0
-    spdx_id: Apache-2.0
-    url: https://api.github.com/licenses/apache-2.0
-    node_id: MDc6TGljZW5zZTI=
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: false
-  topics:
-    - controller
-    - docker
-    - galleybytes
-    - helm-chart
-    - kubernetes
-    - kubernetes-crd
-    - operator
-    - terraform
-    - terraform-operator
-  visibility: public
-  forks: 47
-  open_issues: 20
-  watchers: 333
-  default_branch: master
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 83470613
-  node_id: MDEwOlJlcG9zaXRvcnk4MzQ3MDYxMw==
-  name: terraform-landscape
-  full_name: coinbase/terraform-landscape
-  private: false
-  owner:
-    login: coinbase
-    id: 1885080
-    node_id: MDEyOk9yZ2FuaXphdGlvbjE4ODUwODA=
-    avatar_url: https://avatars.githubusercontent.com/u/1885080?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/coinbase
-    html_url: https://github.com/coinbase
-    followers_url: https://api.github.com/users/coinbase/followers
-    following_url: https://api.github.com/users/coinbase/following{/other_user}
-    gists_url: https://api.github.com/users/coinbase/gists{/gist_id}
-    starred_url: https://api.github.com/users/coinbase/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/coinbase/subscriptions
-    organizations_url: https://api.github.com/users/coinbase/orgs
-    repos_url: https://api.github.com/users/coinbase/repos
-    events_url: https://api.github.com/users/coinbase/events{/privacy}
-    received_events_url: https://api.github.com/users/coinbase/received_events
-    type: Organization
-    site_admin: false
-  html_url: https://github.com/coinbase/terraform-landscape
-  description: Improve Terraform's plan output to be easier to read and understand
-  fork: false
-  url: https://api.github.com/repos/coinbase/terraform-landscape
-  forks_url: https://api.github.com/repos/coinbase/terraform-landscape/forks
-  keys_url: https://api.github.com/repos/coinbase/terraform-landscape/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/coinbase/terraform-landscape/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/coinbase/terraform-landscape/teams
-  hooks_url: https://api.github.com/repos/coinbase/terraform-landscape/hooks
-  issue_events_url: https://api.github.com/repos/coinbase/terraform-landscape/issues/events{/number}
-  events_url: https://api.github.com/repos/coinbase/terraform-landscape/events
-  assignees_url: https://api.github.com/repos/coinbase/terraform-landscape/assignees{/user}
-  branches_url: https://api.github.com/repos/coinbase/terraform-landscape/branches{/branch}
-  tags_url: https://api.github.com/repos/coinbase/terraform-landscape/tags
-  blobs_url: https://api.github.com/repos/coinbase/terraform-landscape/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/coinbase/terraform-landscape/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/coinbase/terraform-landscape/git/refs{/sha}
-  trees_url: https://api.github.com/repos/coinbase/terraform-landscape/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/coinbase/terraform-landscape/statuses/{sha}
-  languages_url: https://api.github.com/repos/coinbase/terraform-landscape/languages
-  stargazers_url: https://api.github.com/repos/coinbase/terraform-landscape/stargazers
-  contributors_url: https://api.github.com/repos/coinbase/terraform-landscape/contributors
-  subscribers_url: https://api.github.com/repos/coinbase/terraform-landscape/subscribers
-  subscription_url: https://api.github.com/repos/coinbase/terraform-landscape/subscription
-  commits_url: https://api.github.com/repos/coinbase/terraform-landscape/commits{/sha}
-  git_commits_url: https://api.github.com/repos/coinbase/terraform-landscape/git/commits{/sha}
-  comments_url: https://api.github.com/repos/coinbase/terraform-landscape/comments{/number}
-  issue_comment_url: https://api.github.com/repos/coinbase/terraform-landscape/issues/comments{/number}
-  contents_url: https://api.github.com/repos/coinbase/terraform-landscape/contents/{+path}
-  compare_url: https://api.github.com/repos/coinbase/terraform-landscape/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/coinbase/terraform-landscape/merges
-  archive_url: https://api.github.com/repos/coinbase/terraform-landscape/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/coinbase/terraform-landscape/downloads
-  issues_url: https://api.github.com/repos/coinbase/terraform-landscape/issues{/number}
-  pulls_url: https://api.github.com/repos/coinbase/terraform-landscape/pulls{/number}
-  milestones_url: https://api.github.com/repos/coinbase/terraform-landscape/milestones{/number}
-  notifications_url: https://api.github.com/repos/coinbase/terraform-landscape/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/coinbase/terraform-landscape/labels{/name}
-  releases_url: https://api.github.com/repos/coinbase/terraform-landscape/releases{/id}
-  deployments_url: https://api.github.com/repos/coinbase/terraform-landscape/deployments
-  created_at: "2017-02-28T19:24:09Z"
-  updated_at: "2023-12-22T20:23:02Z"
-  pushed_at: "2021-12-14T22:29:03Z"
-  git_url: git://github.com/coinbase/terraform-landscape.git
-  ssh_url: git@github.com:coinbase/terraform-landscape.git
-  clone_url: https://github.com/coinbase/terraform-landscape.git
-  svn_url: https://github.com/coinbase/terraform-landscape
-  homepage: ""
-  size: 778
-  stargazers_count: 1532
-  watchers_count: 1532
-  language: Ruby
-  has_issues: true
-  has_projects: false
-  has_downloads: true
-  has_wiki: false
-  has_pages: false
-  has_discussions: false
-  forks_count: 116
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 14
-  license:
-    key: apache-2.0
-    name: Apache License 2.0
-    spdx_id: Apache-2.0
-    url: https://api.github.com/licenses/apache-2.0
-    node_id: MDc6TGljZW5zZTI=
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: false
-  topics:
-    - bash
-    - ruby
-    - terraform
-  visibility: public
-  forks: 116
-  open_issues: 14
-  watchers: 1532
-  default_branch: master
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 184490584
-  node_id: MDEwOlJlcG9zaXRvcnkxODQ0OTA1ODQ=
-  name: terraformer
-  full_name: GoogleCloudPlatform/terraformer
-  private: false
-  owner:
-    login: GoogleCloudPlatform
-    id: 2810941
-    node_id: MDEyOk9yZ2FuaXphdGlvbjI4MTA5NDE=
-    avatar_url: https://avatars.githubusercontent.com/u/2810941?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/GoogleCloudPlatform
-    html_url: https://github.com/GoogleCloudPlatform
-    followers_url: https://api.github.com/users/GoogleCloudPlatform/followers
-    following_url: https://api.github.com/users/GoogleCloudPlatform/following{/other_user}
-    gists_url: https://api.github.com/users/GoogleCloudPlatform/gists{/gist_id}
-    starred_url: https://api.github.com/users/GoogleCloudPlatform/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/GoogleCloudPlatform/subscriptions
-    organizations_url: https://api.github.com/users/GoogleCloudPlatform/orgs
-    repos_url: https://api.github.com/users/GoogleCloudPlatform/repos
-    events_url: https://api.github.com/users/GoogleCloudPlatform/events{/privacy}
-    received_events_url: https://api.github.com/users/GoogleCloudPlatform/received_events
-    type: Organization
-    site_admin: false
-  html_url: https://github.com/GoogleCloudPlatform/terraformer
-  description: CLI tool to generate terraform files from existing infrastructure (reverse Terraform). Infrastructure to Code
-  fork: false
-  url: https://api.github.com/repos/GoogleCloudPlatform/terraformer
-  forks_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/forks
-  keys_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/teams
-  hooks_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/hooks
-  issue_events_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/issues/events{/number}
-  events_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/events
-  assignees_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/assignees{/user}
-  branches_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/branches{/branch}
-  tags_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/tags
-  blobs_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/git/refs{/sha}
-  trees_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/statuses/{sha}
-  languages_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/languages
-  stargazers_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/stargazers
-  contributors_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/contributors
-  subscribers_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/subscribers
-  subscription_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/subscription
-  commits_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/commits{/sha}
-  git_commits_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/git/commits{/sha}
-  comments_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/comments{/number}
-  issue_comment_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/issues/comments{/number}
-  contents_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/contents/{+path}
-  compare_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/merges
-  archive_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/downloads
-  issues_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/issues{/number}
-  pulls_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/pulls{/number}
-  milestones_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/milestones{/number}
-  notifications_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/labels{/name}
-  releases_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/releases{/id}
-  deployments_url: https://api.github.com/repos/GoogleCloudPlatform/terraformer/deployments
-  created_at: "2019-05-01T22:37:33Z"
-  updated_at: "2023-12-24T13:06:53Z"
-  pushed_at: "2023-12-24T13:06:47Z"
-  git_url: git://github.com/GoogleCloudPlatform/terraformer.git
-  ssh_url: git@github.com:GoogleCloudPlatform/terraformer.git
-  clone_url: https://github.com/GoogleCloudPlatform/terraformer.git
-  svn_url: https://github.com/GoogleCloudPlatform/terraformer
-  homepage: ""
-  size: 69166
-  stargazers_count: 11168
-  watchers_count: 11168
-  language: Go
-  has_issues: true
-  has_projects: false
-  has_downloads: true
-  has_wiki: true
-  has_pages: false
-  has_discussions: true
-  forks_count: 1539
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 63
-  license:
-    key: apache-2.0
-    name: Apache License 2.0
-    spdx_id: Apache-2.0
-    url: https://api.github.com/licenses/apache-2.0
-    node_id: MDc6TGljZW5zZTI=
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: false
-  topics:
-    - aws
-    - cloud
-    - gcp
-    - golang
-    - google-cloud
-    - hcl
-    - infrastructure-as-code
-    - kubernetes
-    - terraform
-    - terraform-configurations
-  visibility: public
-  forks: 1539
-  open_issues: 63
-  watchers: 11168
-  default_branch: master
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 58478671
-  node_id: MDEwOlJlcG9zaXRvcnk1ODQ3ODY3MQ==
-  name: awesome-terraform
-  full_name: shuaibiyy/awesome-terraform
-  private: false
-  owner:
-    login: shuaibiyy
-    id: 1766965
-    node_id: MDQ6VXNlcjE3NjY5NjU=
-    avatar_url: https://avatars.githubusercontent.com/u/1766965?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/shuaibiyy
-    html_url: https://github.com/shuaibiyy
-    followers_url: https://api.github.com/users/shuaibiyy/followers
-    following_url: https://api.github.com/users/shuaibiyy/following{/other_user}
-    gists_url: https://api.github.com/users/shuaibiyy/gists{/gist_id}
-    starred_url: https://api.github.com/users/shuaibiyy/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/shuaibiyy/subscriptions
-    organizations_url: https://api.github.com/users/shuaibiyy/orgs
-    repos_url: https://api.github.com/users/shuaibiyy/repos
-    events_url: https://api.github.com/users/shuaibiyy/events{/privacy}
-    received_events_url: https://api.github.com/users/shuaibiyy/received_events
-    type: User
-    site_admin: false
-  html_url: https://github.com/shuaibiyy/awesome-terraform
-  description: Curated list of resources on HashiCorp's Terraform
-  fork: false
-  url: https://api.github.com/repos/shuaibiyy/awesome-terraform
-  forks_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/forks
-  keys_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/teams
-  hooks_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/hooks
-  issue_events_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/issues/events{/number}
-  events_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/events
-  assignees_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/assignees{/user}
-  branches_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/branches{/branch}
-  tags_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/tags
-  blobs_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/git/refs{/sha}
-  trees_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/statuses/{sha}
-  languages_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/languages
-  stargazers_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/stargazers
-  contributors_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/contributors
-  subscribers_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/subscribers
-  subscription_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/subscription
-  commits_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/commits{/sha}
-  git_commits_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/git/commits{/sha}
-  comments_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/comments{/number}
-  issue_comment_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/issues/comments{/number}
-  contents_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/contents/{+path}
-  compare_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/merges
-  archive_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/downloads
-  issues_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/issues{/number}
-  pulls_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/pulls{/number}
-  milestones_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/milestones{/number}
-  notifications_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/labels{/name}
-  releases_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/releases{/id}
-  deployments_url: https://api.github.com/repos/shuaibiyy/awesome-terraform/deployments
-  created_at: "2016-05-10T16:56:17Z"
-  updated_at: "2023-12-24T16:31:37Z"
-  pushed_at: "2023-12-09T23:12:54Z"
-  git_url: git://github.com/shuaibiyy/awesome-terraform.git
-  ssh_url: git@github.com:shuaibiyy/awesome-terraform.git
-  clone_url: https://github.com/shuaibiyy/awesome-terraform.git
-  svn_url: https://github.com/shuaibiyy/awesome-terraform
-  homepage: ""
-  size: 531
-  stargazers_count: 4949
-  watchers_count: 4949
-  language: null
-  has_issues: true
-  has_projects: true
-  has_downloads: true
-  has_wiki: true
-  has_pages: false
-  has_discussions: false
-  forks_count: 822
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 1
-  license:
-    key: cc0-1.0
-    name: Creative Commons Zero v1.0 Universal
-    spdx_id: CC0-1.0
-    url: https://api.github.com/licenses/cc0-1.0
-    node_id: MDc6TGljZW5zZTY=
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: false
-  topics:
-    - awesome
-    - awesome-list
-    - devops
-    - hashicorp-terraform
-    - infrastructure-as-code
-    - terraform
-    - terraform-modules
-  visibility: public
-  forks: 822
-  open_issues: 1
-  watchers: 4949
-  default_branch: master
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 59522149
-  node_id: MDEwOlJlcG9zaXRvcnk1OTUyMjE0OQ==
-  name: terragrunt
-  full_name: gruntwork-io/terragrunt
-  private: false
-  owner:
-    login: gruntwork-io
-    id: 17118990
-    node_id: MDEyOk9yZ2FuaXphdGlvbjE3MTE4OTkw
-    avatar_url: https://avatars.githubusercontent.com/u/17118990?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/gruntwork-io
-    html_url: https://github.com/gruntwork-io
-    followers_url: https://api.github.com/users/gruntwork-io/followers
-    following_url: https://api.github.com/users/gruntwork-io/following{/other_user}
-    gists_url: https://api.github.com/users/gruntwork-io/gists{/gist_id}
-    starred_url: https://api.github.com/users/gruntwork-io/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/gruntwork-io/subscriptions
-    organizations_url: https://api.github.com/users/gruntwork-io/orgs
-    repos_url: https://api.github.com/users/gruntwork-io/repos
-    events_url: https://api.github.com/users/gruntwork-io/events{/privacy}
-    received_events_url: https://api.github.com/users/gruntwork-io/received_events
-    type: Organization
-    site_admin: false
-  html_url: https://github.com/gruntwork-io/terragrunt
-  description: Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.
-  fork: false
-  url: https://api.github.com/repos/gruntwork-io/terragrunt
-  forks_url: https://api.github.com/repos/gruntwork-io/terragrunt/forks
-  keys_url: https://api.github.com/repos/gruntwork-io/terragrunt/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/gruntwork-io/terragrunt/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/gruntwork-io/terragrunt/teams
-  hooks_url: https://api.github.com/repos/gruntwork-io/terragrunt/hooks
-  issue_events_url: https://api.github.com/repos/gruntwork-io/terragrunt/issues/events{/number}
-  events_url: https://api.github.com/repos/gruntwork-io/terragrunt/events
-  assignees_url: https://api.github.com/repos/gruntwork-io/terragrunt/assignees{/user}
-  branches_url: https://api.github.com/repos/gruntwork-io/terragrunt/branches{/branch}
-  tags_url: https://api.github.com/repos/gruntwork-io/terragrunt/tags
-  blobs_url: https://api.github.com/repos/gruntwork-io/terragrunt/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/gruntwork-io/terragrunt/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/gruntwork-io/terragrunt/git/refs{/sha}
-  trees_url: https://api.github.com/repos/gruntwork-io/terragrunt/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/gruntwork-io/terragrunt/statuses/{sha}
-  languages_url: https://api.github.com/repos/gruntwork-io/terragrunt/languages
-  stargazers_url: https://api.github.com/repos/gruntwork-io/terragrunt/stargazers
-  contributors_url: https://api.github.com/repos/gruntwork-io/terragrunt/contributors
-  subscribers_url: https://api.github.com/repos/gruntwork-io/terragrunt/subscribers
-  subscription_url: https://api.github.com/repos/gruntwork-io/terragrunt/subscription
-  commits_url: https://api.github.com/repos/gruntwork-io/terragrunt/commits{/sha}
-  git_commits_url: https://api.github.com/repos/gruntwork-io/terragrunt/git/commits{/sha}
-  comments_url: https://api.github.com/repos/gruntwork-io/terragrunt/comments{/number}
-  issue_comment_url: https://api.github.com/repos/gruntwork-io/terragrunt/issues/comments{/number}
-  contents_url: https://api.github.com/repos/gruntwork-io/terragrunt/contents/{+path}
-  compare_url: https://api.github.com/repos/gruntwork-io/terragrunt/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/gruntwork-io/terragrunt/merges
-  archive_url: https://api.github.com/repos/gruntwork-io/terragrunt/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/gruntwork-io/terragrunt/downloads
-  issues_url: https://api.github.com/repos/gruntwork-io/terragrunt/issues{/number}
-  pulls_url: https://api.github.com/repos/gruntwork-io/terragrunt/pulls{/number}
-  milestones_url: https://api.github.com/repos/gruntwork-io/terragrunt/milestones{/number}
-  notifications_url: https://api.github.com/repos/gruntwork-io/terragrunt/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/gruntwork-io/terragrunt/labels{/name}
-  releases_url: https://api.github.com/repos/gruntwork-io/terragrunt/releases{/id}
-  deployments_url: https://api.github.com/repos/gruntwork-io/terragrunt/deployments
-  created_at: "2016-05-23T22:17:48Z"
-  updated_at: "2023-12-24T12:55:41Z"
-  pushed_at: "2023-12-22T19:47:53Z"
-  git_url: git://github.com/gruntwork-io/terragrunt.git
-  ssh_url: git@github.com:gruntwork-io/terragrunt.git
-  clone_url: https://github.com/gruntwork-io/terragrunt.git
-  svn_url: https://github.com/gruntwork-io/terragrunt
-  homepage: https://terragrunt.gruntwork.io/
-  size: 29213
-  stargazers_count: 7342
-  watchers_count: 7342
-  language: Go
-  has_issues: true
-  has_projects: true
-  has_downloads: true
-  has_wiki: true
-  has_pages: true
-  has_discussions: false
-  forks_count: 923
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 632
-  license:
-    key: mit
-    name: MIT License
-    spdx_id: MIT
-    url: https://api.github.com/licenses/mit
-    node_id: MDc6TGljZW5zZTEz
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: false
-  topics:
-    - aws
-    - cli
-    - developer-tools
-    - devops
-    - terraform
-  visibility: public
-  forks: 923
-  open_issues: 632
-  watchers: 7342
-  default_branch: master
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 663043022
-  node_id: R_kgDOJ4U7zg
-  name: blog-examples
-  full_name: saturnhead/blog-examples
-  private: false
-  owner:
-    login: saturnhead
-    id: 104863090
-    node_id: O_kgDOBkAVcg
-    avatar_url: https://avatars.githubusercontent.com/u/104863090?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/saturnhead
-    html_url: https://github.com/saturnhead
-    followers_url: https://api.github.com/users/saturnhead/followers
-    following_url: https://api.github.com/users/saturnhead/following{/other_user}
-    gists_url: https://api.github.com/users/saturnhead/gists{/gist_id}
-    starred_url: https://api.github.com/users/saturnhead/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/saturnhead/subscriptions
-    organizations_url: https://api.github.com/users/saturnhead/orgs
-    repos_url: https://api.github.com/users/saturnhead/repos
-    events_url: https://api.github.com/users/saturnhead/events{/privacy}
-    received_events_url: https://api.github.com/users/saturnhead/received_events
-    type: Organization
-    site_admin: false
-  html_url: https://github.com/saturnhead/blog-examples
-  description: null
-  fork: false
-  url: https://api.github.com/repos/saturnhead/blog-examples
-  forks_url: https://api.github.com/repos/saturnhead/blog-examples/forks
-  keys_url: https://api.github.com/repos/saturnhead/blog-examples/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/saturnhead/blog-examples/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/saturnhead/blog-examples/teams
-  hooks_url: https://api.github.com/repos/saturnhead/blog-examples/hooks
-  issue_events_url: https://api.github.com/repos/saturnhead/blog-examples/issues/events{/number}
-  events_url: https://api.github.com/repos/saturnhead/blog-examples/events
-  assignees_url: https://api.github.com/repos/saturnhead/blog-examples/assignees{/user}
-  branches_url: https://api.github.com/repos/saturnhead/blog-examples/branches{/branch}
-  tags_url: https://api.github.com/repos/saturnhead/blog-examples/tags
-  blobs_url: https://api.github.com/repos/saturnhead/blog-examples/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/saturnhead/blog-examples/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/saturnhead/blog-examples/git/refs{/sha}
-  trees_url: https://api.github.com/repos/saturnhead/blog-examples/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/saturnhead/blog-examples/statuses/{sha}
-  languages_url: https://api.github.com/repos/saturnhead/blog-examples/languages
-  stargazers_url: https://api.github.com/repos/saturnhead/blog-examples/stargazers
-  contributors_url: https://api.github.com/repos/saturnhead/blog-examples/contributors
-  subscribers_url: https://api.github.com/repos/saturnhead/blog-examples/subscribers
-  subscription_url: https://api.github.com/repos/saturnhead/blog-examples/subscription
-  commits_url: https://api.github.com/repos/saturnhead/blog-examples/commits{/sha}
-  git_commits_url: https://api.github.com/repos/saturnhead/blog-examples/git/commits{/sha}
-  comments_url: https://api.github.com/repos/saturnhead/blog-examples/comments{/number}
-  issue_comment_url: https://api.github.com/repos/saturnhead/blog-examples/issues/comments{/number}
-  contents_url: https://api.github.com/repos/saturnhead/blog-examples/contents/{+path}
-  compare_url: https://api.github.com/repos/saturnhead/blog-examples/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/saturnhead/blog-examples/merges
-  archive_url: https://api.github.com/repos/saturnhead/blog-examples/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/saturnhead/blog-examples/downloads
-  issues_url: https://api.github.com/repos/saturnhead/blog-examples/issues{/number}
-  pulls_url: https://api.github.com/repos/saturnhead/blog-examples/pulls{/number}
-  milestones_url: https://api.github.com/repos/saturnhead/blog-examples/milestones{/number}
-  notifications_url: https://api.github.com/repos/saturnhead/blog-examples/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/saturnhead/blog-examples/labels{/name}
-  releases_url: https://api.github.com/repos/saturnhead/blog-examples/releases{/id}
-  deployments_url: https://api.github.com/repos/saturnhead/blog-examples/deployments
-  created_at: "2023-07-06T12:36:09Z"
-  updated_at: "2023-12-21T02:25:39Z"
-  pushed_at: "2023-12-12T12:09:57Z"
-  git_url: git://github.com/saturnhead/blog-examples.git
-  ssh_url: git@github.com:saturnhead/blog-examples.git
-  clone_url: https://github.com/saturnhead/blog-examples.git
-  svn_url: https://github.com/saturnhead/blog-examples
-  homepage: null
-  size: 96
-  stargazers_count: 3
-  watchers_count: 3
-  language: HCL
-  has_issues: true
-  has_projects: true
-  has_downloads: true
-  has_wiki: true
-  has_pages: false
-  has_discussions: false
-  forks_count: 5
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 0
-  license: null
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: false
-  topics: []
-  visibility: public
-  forks: 5
-  open_issues: 0
-  watchers: 3
-  default_branch: main
-  permissions:
-    admin: false
-    maintain: false
-    push: false
-    triage: false
-    pull: false
-- id: 679421146
-  node_id: R_kgDOKH8k2g
-  name: opentofu
-  full_name: opentofu/opentofu
-  private: false
-  owner:
-    login: opentofu
-    id: 142061836
-    node_id: O_kgDOCHexDA
-    avatar_url: https://avatars.githubusercontent.com/u/142061836?v=4
-    gravatar_id: ""
-    url: https://api.github.com/users/opentofu
-    html_url: https://github.com/opentofu
-    followers_url: https://api.github.com/users/opentofu/followers
-    following_url: https://api.github.com/users/opentofu/following{/other_user}
-    gists_url: https://api.github.com/users/opentofu/gists{/gist_id}
-    starred_url: https://api.github.com/users/opentofu/starred{/owner}{/repo}
-    subscriptions_url: https://api.github.com/users/opentofu/subscriptions
-    organizations_url: https://api.github.com/users/opentofu/orgs
-    repos_url: https://api.github.com/users/opentofu/repos
-    events_url: https://api.github.com/users/opentofu/events{/privacy}
-    received_events_url: https://api.github.com/users/opentofu/received_events
-    type: Organization
-    site_admin: false
-  html_url: https://github.com/opentofu/opentofu
-  description: OpenTofu lets you declaratively manage your cloud infrastructure.
-  fork: false
-  url: https://api.github.com/repos/opentofu/opentofu
-  forks_url: https://api.github.com/repos/opentofu/opentofu/forks
-  keys_url: https://api.github.com/repos/opentofu/opentofu/keys{/key_id}
-  collaborators_url: https://api.github.com/repos/opentofu/opentofu/collaborators{/collaborator}
-  teams_url: https://api.github.com/repos/opentofu/opentofu/teams
-  hooks_url: https://api.github.com/repos/opentofu/opentofu/hooks
-  issue_events_url: https://api.github.com/repos/opentofu/opentofu/issues/events{/number}
-  events_url: https://api.github.com/repos/opentofu/opentofu/events
-  assignees_url: https://api.github.com/repos/opentofu/opentofu/assignees{/user}
-  branches_url: https://api.github.com/repos/opentofu/opentofu/branches{/branch}
-  tags_url: https://api.github.com/repos/opentofu/opentofu/tags
-  blobs_url: https://api.github.com/repos/opentofu/opentofu/git/blobs{/sha}
-  git_tags_url: https://api.github.com/repos/opentofu/opentofu/git/tags{/sha}
-  git_refs_url: https://api.github.com/repos/opentofu/opentofu/git/refs{/sha}
-  trees_url: https://api.github.com/repos/opentofu/opentofu/git/trees{/sha}
-  statuses_url: https://api.github.com/repos/opentofu/opentofu/statuses/{sha}
-  languages_url: https://api.github.com/repos/opentofu/opentofu/languages
-  stargazers_url: https://api.github.com/repos/opentofu/opentofu/stargazers
-  contributors_url: https://api.github.com/repos/opentofu/opentofu/contributors
-  subscribers_url: https://api.github.com/repos/opentofu/opentofu/subscribers
-  subscription_url: https://api.github.com/repos/opentofu/opentofu/subscription
-  commits_url: https://api.github.com/repos/opentofu/opentofu/commits{/sha}
-  git_commits_url: https://api.github.com/repos/opentofu/opentofu/git/commits{/sha}
-  comments_url: https://api.github.com/repos/opentofu/opentofu/comments{/number}
-  issue_comment_url: https://api.github.com/repos/opentofu/opentofu/issues/comments{/number}
-  contents_url: https://api.github.com/repos/opentofu/opentofu/contents/{+path}
-  compare_url: https://api.github.com/repos/opentofu/opentofu/compare/{base}...{head}
-  merges_url: https://api.github.com/repos/opentofu/opentofu/merges
-  archive_url: https://api.github.com/repos/opentofu/opentofu/{archive_format}{/ref}
-  downloads_url: https://api.github.com/repos/opentofu/opentofu/downloads
-  issues_url: https://api.github.com/repos/opentofu/opentofu/issues{/number}
-  pulls_url: https://api.github.com/repos/opentofu/opentofu/pulls{/number}
-  milestones_url: https://api.github.com/repos/opentofu/opentofu/milestones{/number}
-  notifications_url: https://api.github.com/repos/opentofu/opentofu/notifications{?since,all,participating}
-  labels_url: https://api.github.com/repos/opentofu/opentofu/labels{/name}
-  releases_url: https://api.github.com/repos/opentofu/opentofu/releases{/id}
-  deployments_url: https://api.github.com/repos/opentofu/opentofu/deployments
-  created_at: "2023-08-16T20:01:36Z"
-  updated_at: "2023-12-24T22:16:58Z"
-  pushed_at: "2023-12-24T08:19:03Z"
-  git_url: git://github.com/opentofu/opentofu.git
-  ssh_url: git@github.com:opentofu/opentofu.git
-  clone_url: https://github.com/opentofu/opentofu.git
-  svn_url: https://github.com/opentofu/opentofu
-  homepage: https://opentofu.org
-  size: 271833
-  stargazers_count: 16686
-  watchers_count: 16686
-  language: Go
-  has_issues: true
-  has_projects: true
-  has_downloads: true
-  has_wiki: false
-  has_pages: false
-  has_discussions: true
-  forks_count: 577
-  mirror_url: null
-  archived: false
-  disabled: false
-  open_issues_count: 173
-  license:
-    key: mpl-2.0
-    name: Mozilla Public License 2.0
-    spdx_id: MPL-2.0
-    url: https://api.github.com/licenses/mpl-2.0
-    node_id: MDc6TGljZW5zZTE0
-  allow_forking: true
-  is_template: false
-  web_commit_signoff_required: false
-  topics: []
-  visibility: public
-  forks: 577
-  open_issues: 173
-  watchers: 16686
-  default_branch: main
   permissions:
     admin: false
     maintain: false
