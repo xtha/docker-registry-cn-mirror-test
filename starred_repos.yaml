@@ -411,16 +411,16 @@
   releases_url: https://api.github.com/repos/kserve/kserve/releases{/id}
   deployments_url: https://api.github.com/repos/kserve/kserve/deployments
   created_at: "2019-03-27T21:14:14Z"
-  updated_at: "2024-05-24T14:10:21Z"
-  pushed_at: "2024-05-24T23:18:58Z"
+  updated_at: "2024-05-26T00:17:48Z"
+  pushed_at: "2024-05-25T10:02:07Z"
   git_url: git://github.com/kserve/kserve.git
   ssh_url: git@github.com:kserve/kserve.git
   clone_url: https://github.com/kserve/kserve.git
   svn_url: https://github.com/kserve/kserve
   homepage: https://kserve.github.io/website/
   size: 432718
-  stargazers_count: 3145
-  watchers_count: 3145
+  stargazers_count: 3146
+  watchers_count: 3146
   language: Python
   has_issues: true
   has_projects: true
@@ -428,7 +428,7 @@
   has_wiki: true
   has_pages: true
   has_discussions: true
-  forks_count: 973
+  forks_count: 974
   mirror_url: null
   archived: false
   disabled: false
@@ -464,9 +464,9 @@
     - tensorflow
     - xgboost
   visibility: public
-  forks: 973
+  forks: 974
   open_issues: 407
-  watchers: 3145
+  watchers: 3146
   default_branch: master
   permissions:
     admin: false
@@ -556,7 +556,7 @@
   has_wiki: true
   has_pages: true
   has_discussions: false
-  forks_count: 823
+  forks_count: 824
   mirror_url: null
   archived: false
   disabled: false
@@ -580,7 +580,7 @@
     - production-machine-learning
     - serving
   visibility: public
-  forks: 823
+  forks: 824
   open_issues: 181
   watchers: 4246
   default_branch: master
@@ -1100,7 +1100,7 @@
   releases_url: https://api.github.com/repos/veops/cmdb/releases{/id}
   deployments_url: https://api.github.com/repos/veops/cmdb/deployments
   created_at: "2015-12-29T02:32:49Z"
-  updated_at: "2024-05-24T15:31:52Z"
+  updated_at: "2024-05-25T11:54:05Z"
   pushed_at: "2024-05-24T10:29:09Z"
   git_url: git://github.com/veops/cmdb.git
   ssh_url: git@github.com:veops/cmdb.git
@@ -1108,8 +1108,8 @@
   svn_url: https://github.com/veops/cmdb
   homepage: https://cmdb.veops.cn
   size: 19563
-  stargazers_count: 1282
-  watchers_count: 1282
+  stargazers_count: 1284
+  watchers_count: 1284
   language: Python
   has_issues: true
   has_projects: true
@@ -1145,7 +1145,7 @@
   visibility: public
   forks: 344
   open_issues: 61
-  watchers: 1282
+  watchers: 1284
   default_branch: master
   permissions:
     admin: false
@@ -1334,14 +1334,14 @@
   releases_url: https://api.github.com/repos/bank-vaults/vault-operator/releases{/id}
   deployments_url: https://api.github.com/repos/bank-vaults/vault-operator/deployments
   created_at: "2023-05-05T21:21:25Z"
-  updated_at: "2024-05-19T19:49:10Z"
-  pushed_at: "2024-05-20T10:13:32Z"
+  updated_at: "2024-05-25T12:26:07Z"
+  pushed_at: "2024-05-25T12:45:37Z"
   git_url: git://github.com/bank-vaults/vault-operator.git
   ssh_url: git@github.com:bank-vaults/vault-operator.git
   clone_url: https://github.com/bank-vaults/vault-operator.git
   svn_url: https://github.com/bank-vaults/vault-operator
   homepage: https://bank-vaults.dev/docs/operator/
-  size: 12696
+  size: 12685
   stargazers_count: 52
   watchers_count: 52
   language: Go
@@ -1355,7 +1355,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 29
+  open_issues_count: 28
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1370,7 +1370,7 @@
     - vault
   visibility: public
   forks: 18
-  open_issues: 29
+  open_issues: 28
   watchers: 52
   default_branch: main
   permissions:
@@ -1558,16 +1558,16 @@
   releases_url: https://api.github.com/repos/GreptimeTeam/greptimedb/releases{/id}
   deployments_url: https://api.github.com/repos/GreptimeTeam/greptimedb/deployments
   created_at: "2022-04-11T03:46:48Z"
-  updated_at: "2024-05-24T17:37:43Z"
-  pushed_at: "2024-05-24T17:58:09Z"
+  updated_at: "2024-05-25T17:55:00Z"
+  pushed_at: "2024-05-25T10:59:55Z"
   git_url: git://github.com/GreptimeTeam/greptimedb.git
   ssh_url: git@github.com:GreptimeTeam/greptimedb.git
   clone_url: https://github.com/GreptimeTeam/greptimedb.git
   svn_url: https://github.com/GreptimeTeam/greptimedb
   homepage: https://greptime.com/
   size: 36320
-  stargazers_count: 3857
-  watchers_count: 3857
+  stargazers_count: 3860
+  watchers_count: 3860
   language: Rust
   has_issues: true
   has_projects: true
@@ -1575,11 +1575,11 @@
   has_wiki: true
   has_pages: true
   has_discussions: true
-  forks_count: 274
+  forks_count: 275
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 202
+  open_issues_count: 206
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1603,9 +1603,9 @@
     - timeseries
     - tsdb
   visibility: public
-  forks: 274
-  open_issues: 202
-  watchers: 3857
+  forks: 275
+  open_issues: 206
+  watchers: 3860
   default_branch: main
   permissions:
     admin: false
@@ -1678,7 +1678,7 @@
   releases_url: https://api.github.com/repos/alibaba/arthas/releases{/id}
   deployments_url: https://api.github.com/repos/alibaba/arthas/deployments
   created_at: "2018-08-29T17:15:57Z"
-  updated_at: "2024-05-24T07:44:20Z"
+  updated_at: "2024-05-25T17:08:15Z"
   pushed_at: "2024-05-14T13:14:24Z"
   git_url: git://github.com/alibaba/arthas.git
   ssh_url: git@github.com:alibaba/arthas.git
@@ -1905,7 +1905,7 @@
   releases_url: https://api.github.com/repos/chaos-mesh/chaos-mesh/releases{/id}
   deployments_url: https://api.github.com/repos/chaos-mesh/chaos-mesh/deployments
   created_at: "2019-09-04T02:29:38Z"
-  updated_at: "2024-05-24T19:29:48Z"
+  updated_at: "2024-05-25T22:12:41Z"
   pushed_at: "2024-05-21T16:58:29Z"
   git_url: git://github.com/chaos-mesh/chaos-mesh.git
   ssh_url: git@github.com:chaos-mesh/chaos-mesh.git
@@ -1913,8 +1913,8 @@
   svn_url: https://github.com/chaos-mesh/chaos-mesh
   homepage: https://chaos-mesh.org
   size: 68026
-  stargazers_count: 6459
-  watchers_count: 6459
+  stargazers_count: 6460
+  watchers_count: 6460
   language: Go
   has_issues: true
   has_projects: true
@@ -1954,7 +1954,7 @@
   visibility: public
   forks: 800
   open_issues: 428
-  watchers: 6459
+  watchers: 6460
   default_branch: master
   permissions:
     admin: false
@@ -2154,7 +2154,7 @@
   has_wiki: true
   has_pages: false
   has_discussions: false
-  forks_count: 194
+  forks_count: 193
   mirror_url: null
   archived: false
   disabled: false
@@ -2185,7 +2185,7 @@
     - testing
     - testing-tools
   visibility: public
-  forks: 194
+  forks: 193
   open_issues: 38
   watchers: 2709
   default_branch: master
@@ -2589,16 +2589,16 @@
   releases_url: https://api.github.com/repos/semantic-release/semantic-release/releases{/id}
   deployments_url: https://api.github.com/repos/semantic-release/semantic-release/deployments
   created_at: "2014-09-15T16:18:28Z"
-  updated_at: "2024-05-24T17:11:22Z"
-  pushed_at: "2024-05-20T20:54:50Z"
+  updated_at: "2024-05-25T18:45:44Z"
+  pushed_at: "2024-05-25T04:07:50Z"
   git_url: git://github.com/semantic-release/semantic-release.git
   ssh_url: git@github.com:semantic-release/semantic-release.git
   clone_url: https://github.com/semantic-release/semantic-release.git
   svn_url: https://github.com/semantic-release/semantic-release
   homepage: https://semantic-release.gitbook.io
-  size: 6507
-  stargazers_count: 19934
-  watchers_count: 19934
+  size: 6509
+  stargazers_count: 19935
+  watchers_count: 19935
   language: JavaScript
   has_issues: true
   has_projects: true
@@ -2636,7 +2636,7 @@
   visibility: public
   forks: 1648
   open_issues: 355
-  watchers: 19934
+  watchers: 19935
   default_branch: master
   permissions:
     admin: false
@@ -3357,7 +3357,7 @@
   releases_url: https://api.github.com/repos/webhooksite/webhook.site/releases{/id}
   deployments_url: https://api.github.com/repos/webhooksite/webhook.site/deployments
   created_at: "2016-03-21T08:45:42Z"
-  updated_at: "2024-05-24T12:47:18Z"
+  updated_at: "2024-05-25T19:55:28Z"
   pushed_at: "2024-01-29T23:24:22Z"
   git_url: git://github.com/webhooksite/webhook.site.git
   ssh_url: git@github.com:webhooksite/webhook.site.git
@@ -3365,8 +3365,8 @@
   svn_url: https://github.com/webhooksite/webhook.site
   homepage: https://webhook.site
   size: 5134
-  stargazers_count: 4981
-  watchers_count: 4981
+  stargazers_count: 4986
+  watchers_count: 4986
   language: JavaScript
   has_issues: true
   has_projects: false
@@ -3374,7 +3374,7 @@
   has_wiki: false
   has_pages: false
   has_discussions: false
-  forks_count: 389
+  forks_count: 390
   mirror_url: null
   archived: false
   disabled: false
@@ -3398,9 +3398,9 @@
     - sqlite
     - webhook
   visibility: public
-  forks: 389
+  forks: 390
   open_issues: 22
-  watchers: 4981
+  watchers: 4986
   default_branch: master
   permissions:
     admin: false
