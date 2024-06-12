@@ -63,14 +63,14 @@
   releases_url: https://api.github.com/repos/WelcometoMyGarden/welcometomygarden/releases{/id}
   deployments_url: https://api.github.com/repos/WelcometoMyGarden/welcometomygarden/deployments
   created_at: "2020-04-24T07:30:11Z"
-  updated_at: "2024-06-10T21:22:29Z"
-  pushed_at: "2024-06-10T10:22:32Z"
+  updated_at: "2024-06-11T15:27:24Z"
+  pushed_at: "2024-06-11T15:27:20Z"
   git_url: git://github.com/WelcometoMyGarden/welcometomygarden.git
   ssh_url: git@github.com:WelcometoMyGarden/welcometomygarden.git
   clone_url: https://github.com/WelcometoMyGarden/welcometomygarden.git
   svn_url: https://github.com/WelcometoMyGarden/welcometomygarden
   homepage: https://welcometomygarden.org
-  size: 72099
+  size: 72229
   stargazers_count: 97
   watchers_count: 97
   language: Svelte
@@ -80,7 +80,7 @@
   has_wiki: true
   has_pages: false
   has_discussions: true
-  forks_count: 15
+  forks_count: 16
   mirror_url: null
   archived: false
   disabled: false
@@ -96,7 +96,7 @@
   web_commit_signoff_required: false
   topics: []
   visibility: public
-  forks: 15
+  forks: 16
   open_issues: 42
   watchers: 97
   default_branch: master
@@ -519,16 +519,16 @@
   releases_url: https://api.github.com/repos/kserve/kserve/releases{/id}
   deployments_url: https://api.github.com/repos/kserve/kserve/deployments
   created_at: "2019-03-27T21:14:14Z"
-  updated_at: "2024-06-10T11:22:34Z"
-  pushed_at: "2024-06-10T21:42:01Z"
+  updated_at: "2024-06-11T23:21:21Z"
+  pushed_at: "2024-06-11T15:36:53Z"
   git_url: git://github.com/kserve/kserve.git
   ssh_url: git@github.com:kserve/kserve.git
   clone_url: https://github.com/kserve/kserve.git
   svn_url: https://github.com/kserve/kserve
   homepage: https://kserve.github.io/website/
   size: 433074
-  stargazers_count: 3200
-  watchers_count: 3200
+  stargazers_count: 3205
+  watchers_count: 3205
   language: Python
   has_issues: true
   has_projects: true
@@ -536,11 +536,11 @@
   has_wiki: true
   has_pages: true
   has_discussions: true
-  forks_count: 984
+  forks_count: 985
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 403
+  open_issues_count: 409
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -572,9 +572,9 @@
     - tensorflow
     - xgboost
   visibility: public
-  forks: 984
-  open_issues: 403
-  watchers: 3200
+  forks: 985
+  open_issues: 409
+  watchers: 3205
   default_branch: master
   permissions:
     admin: false
@@ -647,7 +647,7 @@
   releases_url: https://api.github.com/repos/SeldonIO/seldon-core/releases{/id}
   deployments_url: https://api.github.com/repos/SeldonIO/seldon-core/deployments
   created_at: "2017-12-20T14:51:54Z"
-  updated_at: "2024-06-10T18:35:31Z"
+  updated_at: "2024-06-11T15:17:52Z"
   pushed_at: "2024-06-10T12:05:02Z"
   git_url: git://github.com/SeldonIO/seldon-core.git
   ssh_url: git@github.com:SeldonIO/seldon-core.git
@@ -655,8 +655,8 @@
   svn_url: https://github.com/SeldonIO/seldon-core
   homepage: https://www.seldon.io/tech/products/core/
   size: 240142
-  stargazers_count: 4262
-  watchers_count: 4262
+  stargazers_count: 4266
+  watchers_count: 4266
   language: HTML
   has_issues: true
   has_projects: true
@@ -664,7 +664,7 @@
   has_wiki: true
   has_pages: true
   has_discussions: false
-  forks_count: 826
+  forks_count: 827
   mirror_url: null
   archived: false
   disabled: false
@@ -688,9 +688,9 @@
     - production-machine-learning
     - serving
   visibility: public
-  forks: 826
+  forks: 827
   open_issues: 185
-  watchers: 4262
+  watchers: 4266
   default_branch: master
   permissions:
     admin: false
@@ -997,7 +997,7 @@
   releases_url: https://api.github.com/repos/pig-mesh/nacos-datasource-plugin-pg/releases{/id}
   deployments_url: https://api.github.com/repos/pig-mesh/nacos-datasource-plugin-pg/deployments
   created_at: "2022-12-16T09:16:05Z"
-  updated_at: "2024-04-16T09:08:09Z"
+  updated_at: "2024-06-11T09:06:55Z"
   pushed_at: "2023-11-02T13:46:36Z"
   git_url: git://github.com/pig-mesh/nacos-datasource-plugin-pg.git
   ssh_url: git@github.com:pig-mesh/nacos-datasource-plugin-pg.git
@@ -1005,8 +1005,8 @@
   svn_url: https://github.com/pig-mesh/nacos-datasource-plugin-pg
   homepage: ""
   size: 34
-  stargazers_count: 10
-  watchers_count: 10
+  stargazers_count: 11
+  watchers_count: 11
   language: Java
   has_issues: true
   has_projects: true
@@ -1027,7 +1027,7 @@
   visibility: public
   forks: 7
   open_issues: 0
-  watchers: 10
+  watchers: 11
   default_branch: master
   permissions:
     admin: false
@@ -1121,7 +1121,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 6
+  open_issues_count: 7
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1134,7 +1134,7 @@
   topics: []
   visibility: public
   forks: 3
-  open_issues: 6
+  open_issues: 7
   watchers: 3
   default_branch: main
   permissions:
@@ -1208,14 +1208,14 @@
   releases_url: https://api.github.com/repos/veops/cmdb/releases{/id}
   deployments_url: https://api.github.com/repos/veops/cmdb/deployments
   created_at: "2015-12-29T02:32:49Z"
-  updated_at: "2024-06-09T12:58:36Z"
-  pushed_at: "2024-06-09T12:58:33Z"
+  updated_at: "2024-06-11T07:03:25Z"
+  pushed_at: "2024-06-11T07:03:21Z"
   git_url: git://github.com/veops/cmdb.git
   ssh_url: git@github.com:veops/cmdb.git
   clone_url: https://github.com/veops/cmdb.git
   svn_url: https://github.com/veops/cmdb
   homepage: https://cmdb.veops.cn
-  size: 20393
+  size: 20396
   stargazers_count: 1304
   watchers_count: 1304
   language: Python
@@ -1225,7 +1225,7 @@
   has_wiki: true
   has_pages: false
   has_discussions: false
-  forks_count: 347
+  forks_count: 348
   mirror_url: null
   archived: false
   disabled: false
@@ -1251,7 +1251,7 @@
     - python
     - vue
   visibility: public
-  forks: 347
+  forks: 348
   open_issues: 65
   watchers: 1304
   default_branch: master
@@ -1326,7 +1326,7 @@
   releases_url: https://api.github.com/repos/veops/oneterm/releases{/id}
   deployments_url: https://api.github.com/repos/veops/oneterm/deployments
   created_at: "2024-01-30T01:58:43Z"
-  updated_at: "2024-06-09T15:07:38Z"
+  updated_at: "2024-06-11T08:01:19Z"
   pushed_at: "2024-05-30T06:24:12Z"
   git_url: git://github.com/veops/oneterm.git
   ssh_url: git@github.com:veops/oneterm.git
@@ -1334,8 +1334,8 @@
   svn_url: https://github.com/veops/oneterm
   homepage: https://term.veops.cn/oneterm
   size: 4958
-  stargazers_count: 268
-  watchers_count: 268
+  stargazers_count: 269
+  watchers_count: 269
   language: Go
   has_issues: true
   has_projects: true
@@ -1369,7 +1369,7 @@
   visibility: public
   forks: 44
   open_issues: 7
-  watchers: 268
+  watchers: 269
   default_branch: main
   permissions:
     admin: false
@@ -1666,16 +1666,16 @@
   releases_url: https://api.github.com/repos/GreptimeTeam/greptimedb/releases{/id}
   deployments_url: https://api.github.com/repos/GreptimeTeam/greptimedb/deployments
   created_at: "2022-04-11T03:46:48Z"
-  updated_at: "2024-06-09T02:09:20Z"
-  pushed_at: "2024-06-11T00:10:32Z"
+  updated_at: "2024-06-11T11:06:29Z"
+  pushed_at: "2024-06-11T11:14:41Z"
   git_url: git://github.com/GreptimeTeam/greptimedb.git
   ssh_url: git@github.com:GreptimeTeam/greptimedb.git
   clone_url: https://github.com/GreptimeTeam/greptimedb.git
   svn_url: https://github.com/GreptimeTeam/greptimedb
   homepage: https://greptime.com/
-  size: 34349
-  stargazers_count: 3917
-  watchers_count: 3917
+  size: 32864
+  stargazers_count: 3920
+  watchers_count: 3920
   language: Rust
   has_issues: true
   has_projects: true
@@ -1683,11 +1683,11 @@
   has_wiki: true
   has_pages: true
   has_discussions: true
-  forks_count: 279
+  forks_count: 280
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 207
+  open_issues_count: 200
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1711,9 +1711,9 @@
     - timeseries
     - tsdb
   visibility: public
-  forks: 279
-  open_issues: 207
-  watchers: 3917
+  forks: 280
+  open_issues: 200
+  watchers: 3920
   default_branch: main
   permissions:
     admin: false
@@ -1786,7 +1786,7 @@
   releases_url: https://api.github.com/repos/alibaba/arthas/releases{/id}
   deployments_url: https://api.github.com/repos/alibaba/arthas/deployments
   created_at: "2018-08-29T17:15:57Z"
-  updated_at: "2024-06-10T20:09:54Z"
+  updated_at: "2024-06-11T22:43:54Z"
   pushed_at: "2024-06-06T01:01:37Z"
   git_url: git://github.com/alibaba/arthas.git
   ssh_url: git@github.com:alibaba/arthas.git
@@ -1794,8 +1794,8 @@
   svn_url: https://github.com/alibaba/arthas
   homepage: https://arthas.aliyun.com/
   size: 48698
-  stargazers_count: 34930
-  watchers_count: 34930
+  stargazers_count: 34931
+  watchers_count: 34931
   language: Java
   has_issues: true
   has_projects: true
@@ -1803,11 +1803,11 @@
   has_wiki: true
   has_pages: true
   has_discussions: true
-  forks_count: 7368
+  forks_count: 7369
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 384
+  open_issues_count: 383
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1828,9 +1828,9 @@
     - trace
     - trouble-shooting
   visibility: public
-  forks: 7368
-  open_issues: 384
-  watchers: 34930
+  forks: 7369
+  open_issues: 383
+  watchers: 34931
   default_branch: master
   permissions:
     admin: false
@@ -2014,7 +2014,7 @@
   deployments_url: https://api.github.com/repos/chaos-mesh/chaos-mesh/deployments
   created_at: "2019-09-04T02:29:38Z"
   updated_at: "2024-06-10T13:20:07Z"
-  pushed_at: "2024-06-09T23:41:50Z"
+  pushed_at: "2024-06-11T10:46:35Z"
   git_url: git://github.com/chaos-mesh/chaos-mesh.git
   ssh_url: git@github.com:chaos-mesh/chaos-mesh.git
   clone_url: https://github.com/chaos-mesh/chaos-mesh.git
@@ -2034,7 +2034,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 430
+  open_issues_count: 431
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -2061,7 +2061,7 @@
     - site-reliability-engineering
   visibility: public
   forks: 805
-  open_issues: 430
+  open_issues: 431
   watchers: 6494
   default_branch: master
   permissions:
@@ -2471,7 +2471,7 @@
   releases_url: https://api.github.com/repos/jean-humann/docs-to-pdf/releases{/id}
   deployments_url: https://api.github.com/repos/jean-humann/docs-to-pdf/deployments
   created_at: "2023-05-10T15:18:32Z"
-  updated_at: "2024-06-04T17:06:40Z"
+  updated_at: "2024-06-11T04:47:47Z"
   pushed_at: "2024-04-06T12:01:13Z"
   git_url: git://github.com/jean-humann/docs-to-pdf.git
   ssh_url: git@github.com:jean-humann/docs-to-pdf.git
@@ -2479,8 +2479,8 @@
   svn_url: https://github.com/jean-humann/docs-to-pdf
   homepage: https://www.npmjs.com/package/docs-to-pdf
   size: 22381
-  stargazers_count: 81
-  watchers_count: 81
+  stargazers_count: 82
+  watchers_count: 82
   language: HTML
   has_issues: true
   has_projects: true
@@ -2492,7 +2492,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 38
+  open_issues_count: 39
   license:
     key: mit
     name: MIT License
@@ -2511,8 +2511,8 @@
     - pdf-generation
   visibility: public
   forks: 11
-  open_issues: 38
-  watchers: 81
+  open_issues: 39
+  watchers: 82
   default_branch: master
   permissions:
     admin: false
@@ -2697,16 +2697,16 @@
   releases_url: https://api.github.com/repos/semantic-release/semantic-release/releases{/id}
   deployments_url: https://api.github.com/repos/semantic-release/semantic-release/deployments
   created_at: "2014-09-15T16:18:28Z"
-  updated_at: "2024-06-10T19:43:19Z"
-  pushed_at: "2024-06-10T22:44:05Z"
+  updated_at: "2024-06-11T20:58:54Z"
+  pushed_at: "2024-06-11T22:36:51Z"
   git_url: git://github.com/semantic-release/semantic-release.git
   ssh_url: git@github.com:semantic-release/semantic-release.git
   clone_url: https://github.com/semantic-release/semantic-release.git
   svn_url: https://github.com/semantic-release/semantic-release
   homepage: https://semantic-release.gitbook.io
-  size: 6796
-  stargazers_count: 20005
-  watchers_count: 20005
+  size: 6803
+  stargazers_count: 20010
+  watchers_count: 20010
   language: JavaScript
   has_issues: true
   has_projects: true
@@ -2718,7 +2718,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 355
+  open_issues_count: 354
   license:
     key: mit
     name: MIT License
@@ -2743,8 +2743,8 @@
     - version
   visibility: public
   forks: 1652
-  open_issues: 355
-  watchers: 20005
+  open_issues: 354
+  watchers: 20010
   default_branch: master
   permissions:
     admin: false
@@ -3033,14 +3033,14 @@
   releases_url: https://api.github.com/repos/pulumi/pulumi-keycloak/releases{/id}
   deployments_url: https://api.github.com/repos/pulumi/pulumi-keycloak/deployments
   created_at: "2020-02-05T14:47:08Z"
-  updated_at: "2024-06-07T18:02:53Z"
-  pushed_at: "2024-06-07T18:02:50Z"
+  updated_at: "2024-06-11T05:47:18Z"
+  pushed_at: "2024-06-11T20:21:45Z"
   git_url: git://github.com/pulumi/pulumi-keycloak.git
   ssh_url: git@github.com:pulumi/pulumi-keycloak.git
   clone_url: https://github.com/pulumi/pulumi-keycloak.git
   svn_url: https://github.com/pulumi/pulumi-keycloak
   homepage: ""
-  size: 15019
+  size: 15320
   stargazers_count: 34
   watchers_count: 34
   language: Go
@@ -3054,7 +3054,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 5
+  open_issues_count: 7
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -3067,7 +3067,7 @@
   topics: []
   visibility: public
   forks: 6
-  open_issues: 5
+  open_issues: 7
   watchers: 34
   default_branch: master
   permissions:
