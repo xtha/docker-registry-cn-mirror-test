@@ -171,7 +171,7 @@
   releases_url: https://api.github.com/repos/edrevo/dockerfile-plus/releases{/id}
   deployments_url: https://api.github.com/repos/edrevo/dockerfile-plus/deployments
   created_at: "2020-12-30T21:13:24Z"
-  updated_at: "2024-07-18T10:39:50Z"
+  updated_at: "2024-07-28T21:52:28Z"
   pushed_at: "2022-02-20T10:57:03Z"
   git_url: git://github.com/edrevo/dockerfile-plus.git
   ssh_url: git@github.com:edrevo/dockerfile-plus.git
@@ -179,8 +179,8 @@
   svn_url: https://github.com/edrevo/dockerfile-plus
   homepage: ""
   size: 73
-  stargazers_count: 239
-  watchers_count: 239
+  stargazers_count: 240
+  watchers_count: 240
   language: Rust
   has_issues: true
   has_projects: true
@@ -210,7 +210,7 @@
   visibility: public
   forks: 28
   open_issues: 22
-  watchers: 239
+  watchers: 240
   default_branch: master
   permissions:
     admin: false
@@ -519,16 +519,16 @@
   releases_url: https://api.github.com/repos/kserve/kserve/releases{/id}
   deployments_url: https://api.github.com/repos/kserve/kserve/deployments
   created_at: "2019-03-27T21:14:14Z"
-  updated_at: "2024-07-27T20:56:50Z"
-  pushed_at: "2024-07-27T21:02:48Z"
+  updated_at: "2024-07-28T16:34:53Z"
+  pushed_at: "2024-07-28T17:10:56Z"
   git_url: git://github.com/kserve/kserve.git
   ssh_url: git@github.com:kserve/kserve.git
   clone_url: https://github.com/kserve/kserve.git
   svn_url: https://github.com/kserve/kserve
   homepage: https://kserve.github.io/website/
-  size: 433774
-  stargazers_count: 3327
-  watchers_count: 3327
+  size: 434049
+  stargazers_count: 3329
+  watchers_count: 3329
   language: Python
   has_issues: true
   has_projects: true
@@ -574,7 +574,7 @@
   visibility: public
   forks: 1012
   open_issues: 435
-  watchers: 3327
+  watchers: 3329
   default_branch: master
   permissions:
     admin: false
@@ -648,13 +648,13 @@
   deployments_url: https://api.github.com/repos/SeldonIO/seldon-core/deployments
   created_at: "2017-12-20T14:51:54Z"
   updated_at: "2024-07-25T15:11:40Z"
-  pushed_at: "2024-07-26T15:00:46Z"
+  pushed_at: "2024-07-28T15:42:19Z"
   git_url: git://github.com/SeldonIO/seldon-core.git
   ssh_url: git@github.com:SeldonIO/seldon-core.git
   clone_url: https://github.com/SeldonIO/seldon-core.git
   svn_url: https://github.com/SeldonIO/seldon-core
   homepage: https://www.seldon.io/tech/products/core/
-  size: 240890
+  size: 240877
   stargazers_count: 4303
   watchers_count: 4303
   language: HTML
@@ -668,7 +668,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 196
+  open_issues_count: 182
   license:
     key: other
     name: Other
@@ -689,7 +689,7 @@
     - serving
   visibility: public
   forks: 827
-  open_issues: 196
+  open_issues: 182
   watchers: 4303
   default_branch: master
   permissions:
@@ -1101,7 +1101,7 @@
   deployments_url: https://api.github.com/repos/canonical/repo-policy-compliance/deployments
   created_at: "2023-04-13T05:17:55Z"
   updated_at: "2024-07-19T07:50:47Z"
-  pushed_at: "2024-07-28T00:04:56Z"
+  pushed_at: "2024-07-28T23:10:44Z"
   git_url: git://github.com/canonical/repo-policy-compliance.git
   ssh_url: git@github.com:canonical/repo-policy-compliance.git
   clone_url: https://github.com/canonical/repo-policy-compliance.git
@@ -1442,14 +1442,14 @@
   releases_url: https://api.github.com/repos/bank-vaults/vault-operator/releases{/id}
   deployments_url: https://api.github.com/repos/bank-vaults/vault-operator/deployments
   created_at: "2023-05-05T21:21:25Z"
-  updated_at: "2024-07-23T13:15:49Z"
-  pushed_at: "2024-07-23T13:15:47Z"
+  updated_at: "2024-07-28T18:14:22Z"
+  pushed_at: "2024-07-28T18:04:09Z"
   git_url: git://github.com/bank-vaults/vault-operator.git
   ssh_url: git@github.com:bank-vaults/vault-operator.git
   clone_url: https://github.com/bank-vaults/vault-operator.git
   svn_url: https://github.com/bank-vaults/vault-operator
   homepage: https://bank-vaults.dev/docs/operator/
-  size: 12934
+  size: 12937
   stargazers_count: 54
   watchers_count: 54
   language: Go
@@ -1463,7 +1463,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 26
+  open_issues_count: 24
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1478,7 +1478,7 @@
     - vault
   visibility: public
   forks: 21
-  open_issues: 26
+  open_issues: 24
   watchers: 54
   default_branch: main
   permissions:
@@ -1666,16 +1666,16 @@
   releases_url: https://api.github.com/repos/GreptimeTeam/greptimedb/releases{/id}
   deployments_url: https://api.github.com/repos/GreptimeTeam/greptimedb/deployments
   created_at: "2022-04-11T03:46:48Z"
-  updated_at: "2024-07-27T07:27:18Z"
-  pushed_at: "2024-07-27T16:23:10Z"
+  updated_at: "2024-07-28T17:09:47Z"
+  pushed_at: "2024-07-28T12:33:49Z"
   git_url: git://github.com/GreptimeTeam/greptimedb.git
   ssh_url: git@github.com:GreptimeTeam/greptimedb.git
   clone_url: https://github.com/GreptimeTeam/greptimedb.git
   svn_url: https://github.com/GreptimeTeam/greptimedb
   homepage: http://greptimedb.rs/
-  size: 38928
-  stargazers_count: 4035
-  watchers_count: 4035
+  size: 40109
+  stargazers_count: 4043
+  watchers_count: 4043
   language: Rust
   has_issues: true
   has_projects: true
@@ -1687,7 +1687,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 202
+  open_issues_count: 201
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1718,8 +1718,8 @@
     - tsdb
   visibility: public
   forks: 292
-  open_issues: 202
-  watchers: 4035
+  open_issues: 201
+  watchers: 4043
   default_branch: main
   permissions:
     admin: false
@@ -1792,7 +1792,7 @@
   releases_url: https://api.github.com/repos/alibaba/arthas/releases{/id}
   deployments_url: https://api.github.com/repos/alibaba/arthas/deployments
   created_at: "2018-08-29T17:15:57Z"
-  updated_at: "2024-07-27T09:29:30Z"
+  updated_at: "2024-07-28T14:22:00Z"
   pushed_at: "2024-07-27T02:18:29Z"
   git_url: git://github.com/alibaba/arthas.git
   ssh_url: git@github.com:alibaba/arthas.git
@@ -1800,8 +1800,8 @@
   svn_url: https://github.com/alibaba/arthas
   homepage: https://arthas.aliyun.com/
   size: 49894
-  stargazers_count: 35147
-  watchers_count: 35147
+  stargazers_count: 35151
+  watchers_count: 35151
   language: Java
   has_issues: true
   has_projects: true
@@ -1813,7 +1813,7 @@
   mirror_url: null
   archived: false
   disabled: false
-  open_issues_count: 398
+  open_issues_count: 397
   license:
     key: apache-2.0
     name: Apache License 2.0
@@ -1835,8 +1835,8 @@
     - trouble-shooting
   visibility: public
   forks: 7407
-  open_issues: 398
-  watchers: 35147
+  open_issues: 397
+  watchers: 35151
   default_branch: master
   permissions:
     admin: false
@@ -2019,7 +2019,7 @@
   releases_url: https://api.github.com/repos/chaos-mesh/chaos-mesh/releases{/id}
   deployments_url: https://api.github.com/repos/chaos-mesh/chaos-mesh/deployments
   created_at: "2019-09-04T02:29:38Z"
-  updated_at: "2024-07-26T05:48:22Z"
+  updated_at: "2024-07-28T17:12:11Z"
   pushed_at: "2024-07-23T07:42:36Z"
   git_url: git://github.com/chaos-mesh/chaos-mesh.git
   ssh_url: git@github.com:chaos-mesh/chaos-mesh.git
@@ -2027,8 +2027,8 @@
   svn_url: https://github.com/chaos-mesh/chaos-mesh
   homepage: https://chaos-mesh.org
   size: 68052
-  stargazers_count: 6573
-  watchers_count: 6573
+  stargazers_count: 6576
+  watchers_count: 6576
   language: Go
   has_issues: true
   has_projects: true
@@ -2068,7 +2068,7 @@
   visibility: public
   forks: 816
   open_issues: 437
-  watchers: 6573
+  watchers: 6576
   default_branch: master
   permissions:
     admin: false
@@ -2251,7 +2251,7 @@
   releases_url: https://api.github.com/repos/alexei-led/pumba/releases{/id}
   deployments_url: https://api.github.com/repos/alexei-led/pumba/deployments
   created_at: "2016-03-22T14:20:27Z"
-  updated_at: "2024-07-24T12:42:24Z"
+  updated_at: "2024-07-28T15:43:25Z"
   pushed_at: "2024-06-27T11:06:18Z"
   git_url: git://github.com/alexei-led/pumba.git
   ssh_url: git@github.com:alexei-led/pumba.git
@@ -2259,8 +2259,8 @@
   svn_url: https://github.com/alexei-led/pumba
   homepage: ""
   size: 15320
-  stargazers_count: 2739
-  watchers_count: 2739
+  stargazers_count: 2740
+  watchers_count: 2740
   language: Go
   has_issues: true
   has_projects: true
@@ -2301,7 +2301,7 @@
   visibility: public
   forks: 191
   open_issues: 35
-  watchers: 2739
+  watchers: 2740
   default_branch: master
   permissions:
     admin: false
@@ -2703,7 +2703,7 @@
   releases_url: https://api.github.com/repos/semantic-release/semantic-release/releases{/id}
   deployments_url: https://api.github.com/repos/semantic-release/semantic-release/deployments
   created_at: "2014-09-15T16:18:28Z"
-  updated_at: "2024-07-27T17:38:09Z"
+  updated_at: "2024-07-28T17:12:49Z"
   pushed_at: "2024-07-26T22:32:48Z"
   git_url: git://github.com/semantic-release/semantic-release.git
   ssh_url: git@github.com:semantic-release/semantic-release.git
@@ -2711,8 +2711,8 @@
   svn_url: https://github.com/semantic-release/semantic-release
   homepage: https://semantic-release.gitbook.io
   size: 6595
-  stargazers_count: 20271
-  watchers_count: 20271
+  stargazers_count: 20275
+  watchers_count: 20275
   language: JavaScript
   has_issues: true
   has_projects: true
@@ -2720,7 +2720,7 @@
   has_wiki: false
   has_pages: false
   has_discussions: true
-  forks_count: 1652
+  forks_count: 1651
   mirror_url: null
   archived: false
   disabled: false
@@ -2748,9 +2748,9 @@
     - semver-release
     - version
   visibility: public
-  forks: 1652
+  forks: 1651
   open_issues: 360
-  watchers: 20271
+  watchers: 20275
   default_branch: master
   permissions:
     admin: false
